@@ -1,3 +1,4 @@
+
 ul {
     margin-top: 0;
     margin-bottom: 0;
@@ -51,3 +52,7 @@ header {
 
 
 //sass --watch src/scss/main.scss:src/css/style.css
+
+@import "mixin";
+@import "footer";
+@import "mainTinTuc";
