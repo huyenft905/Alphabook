@@ -1,0 +1,42 @@
+.mainLienHe{
+    h4{
+        margin: 40px 0;
+        color: #252525;
+    }
+    img{
+        margin-top: 40px;
+    }
+    p{
+        font-size:15px;
+        margin-bottom: 10px;
+        margin-top:30px;
+        line-height: 20px;
+    }
+    font-size: 15px;
+}
+.lienHe-info{
+    margin-top: 30px;
+    .fa{
+        color: #e66430;
+        line-height: 25px;
+        padding-right: 15px;
+    }
+    li:nth-child(3){
+    margin-left: -5px;
+}
+}
+.form-group{
+    color: #252525;
+    input,button,textarea{
+        border-radius: 0;
+    }
+    .btn-default{
+        margin: 15px 0;
+        border-radius: 0px;
+        padding: 15px 30px;
+        background: #e66430;
+        color: #fff;
+        border: none;
+        text-transform: uppercase;
+    }
+}
