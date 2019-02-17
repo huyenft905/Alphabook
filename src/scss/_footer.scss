@@ -49,8 +49,10 @@
     h3{
         color: #ffffff;
         font-weight: bold;
+        font-family: inherit;
         padding-bottom: 15px;
-        font-size: 17px;
+        font-size: 14px;
+
     }
 }
 .footer-fb__top{
@@ -145,7 +147,6 @@
     background: #1a1a1a;
     padding-bottom: 15px;
     @include clear-fix;
-    border-top: 1px solid #b7b7b7;
 }
 
 #email {
