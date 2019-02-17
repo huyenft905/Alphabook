@@ -98,14 +98,16 @@ header .header-main__search {
   header .header-main__search {
     order: 1;
     margin-top: 0;
-    width: calc(100% - 150px);
+    width: 80%;
+    margin-left: 40px;
   }
 }
 @media only screen and (min-width: 1200px) {
   header .header-main__search {
     order: 1;
     margin-top: 0;
-    width: calc(100% - 150px);
+    width: 80%;
+    margin-left: 40px;
   }
 }
 header .header-main__search input {
@@ -161,12 +163,12 @@ header .header-main__btn {
 }
 @media only screen and (min-width: 992px) {
   header .header-main__btn {
-    width: 145px;
+    width: 20%;
   }
 }
 @media only screen and (min-width: 1200px) {
   header .header-main__btn {
-    width: 145px;
+    width: 20%;
   }
 }
 header .header-main__btn .btn__phone {
