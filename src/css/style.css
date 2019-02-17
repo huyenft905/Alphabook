@@ -28,6 +28,12 @@ header .header-logo {
 header .header-main {
   margin-top: 36px; }
 
+.post {
+  font-size: 12px;
+  color: #666666;
+  line-height: 22px;
+  margin-bottom: 30px; }
+
 html,
 body {
   margin: 0;
@@ -436,8 +442,37 @@ body {
 .hot-date {
   font-size: 12px; }
 
-.post {
-  font-size: 12px;
-  color: #666666;
-  line-height: 22px;
-  margin-bottom: 30px; }
+.mainLienHe {
+  font-size: 15px; }
+  .mainLienHe h4 {
+    margin: 40px 0;
+    color: #252525; }
+  .mainLienHe img {
+    margin-top: 40px; }
+  .mainLienHe p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    line-height: 20px; }
+
+.lienHe-info {
+  margin-top: 30px; }
+  .lienHe-info .fa {
+    color: #e66430;
+    line-height: 25px;
+    padding-right: 15px; }
+  .lienHe-info li:nth-child(3) {
+    margin-left: -5px; }
+
+.form-group {
+  color: #252525; }
+  .form-group input, .form-group button, .form-group textarea {
+    border-radius: 0; }
+  .form-group .btn-default {
+    margin: 15px 0;
+    border-radius: 0px;
+    padding: 15px 30px;
+    background: #e66430;
+    color: #fff;
+    border: none;
+    text-transform: uppercase; }
