@@ -1,0 +1,206 @@
+header {
+    .header-top {
+        background: #F2F2F2;
+
+        &__nav {
+            float: right;
+        }
+
+        li {
+            float: left;
+        }
+
+        li:first-child a {
+            border-left: 0;
+        }
+
+        a {
+            display: inline-block;
+            margin: 14px 0;
+            padding: 0 15px;
+            border-left: 1px solid #d7d7d7;
+            color: #999999;
+            line-height: 15px;
+            font-size: 12px;
+
+            &:hover {
+                color: #F47920;
+                text-decoration: none;
+
+            }
+        }
+
+    }
+    
+    .header-logo {
+        margin-top: 33px;
+
+        img {
+            width: 100%;
+            @include respond-to(max767) {
+                width: auto;
+            }
+    
+            @include respond-to(min768) {
+                width: auto;
+            }
+        }
+
+        @include respond-to(max767) {
+            text-align: center;
+        }
+
+        @include respond-to(min768) {
+            text-align: center;
+        }
+
+
+    }
+
+    .header-main {
+        margin-top: 33px;
+
+        &__box {
+            display: flex;
+            // flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        &__search {
+            order: 2;
+            width: 100%;
+            margin-top: 15px;
+            position: relative; 
+
+            @include respond-to(min768) {
+                order: 1;
+                width: calc(50% - 5px);
+                margin-top: 0px;
+            }
+
+            @include respond-to(min992) {
+                order: 1;
+                margin-top: 0;
+                width: 80%;
+                margin-left: 40px;
+            }
+
+            
+            @include respond-to(min1200) {
+                order: 1;
+                margin-top: 0;
+                width: 80%;
+                margin-left: 40px;
+            }
+
+            input {
+                width: 100%;
+                outline: none;
+                border: 1px solid #F2F2F2;
+                display: inline-block;
+                font-size: 12px;
+                height: 48px;
+                line-height: 48px;
+                padding: 0 45px 0 20px;
+
+                &:focus + .icon-search {
+                    background: #F47920;
+                    color: #fff;
+                }
+            }
+
+            .icon-search {
+                position: absolute;
+                width: 48px;
+                height: 50px;
+                text-align: center;
+                line-height: 48px;
+                color: #111;
+                top: -1px;
+                right: 15px;
+                display: inline-block;
+                transition: all 0.3s ease-in-out;
+
+                @include respond-to(min768) {
+                    right: 1px;
+                }
+
+                @include respond-to(min992) {
+                    right: 1px;
+                }
+            }
+        }
+
+        &__btn {
+            order: 1;
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            color: #fff;
+
+            @include respond-to(min768) {
+                order:2;
+                width: calc(50% - 10px);
+                justify-content: flex-end;
+            }
+
+            @include respond-to(min992) {
+                width: 20%;
+            }
+
+            @include respond-to(min1200) {
+                width: 20%;
+            }
+
+            .btn__phone {
+                width: calc(50% - 10px);
+                background-color: #F47920;
+                height: 48px;
+                line-height: 48px;
+                text-align: center;
+                @include respond-to(min768) {
+                    margin-right: 5px;
+                }
+                span {
+                    position: relative;
+                    
+                    &::before {
+                        position: absolute;
+                        font-family: 'FontAwesome', sans-serif;
+                        content: "\f095";
+                        left: -16px;
+
+                    @include respond-to(min768) {
+                        display: none;
+                    }
+
+                    }
+                }
+            }
+
+            .btn__wrap {
+                width: calc(50% - 10px);
+                background-color: #F47920;
+                line-height: 46px;
+                text-align: center;
+
+                @include respond-to(min992) {
+                    // order: 1;
+                    width: 100%;
+                }
+
+                .btn__cart {
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+
+                .cart__hover {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}

@@ -5,38 +5,16 @@ ul {
     padding: 0;
     list-style: none;
 }
-header {
-    .header-top {
-        background: #F2F2F2;
 
-        &__nav {
-            float: right;
-        }
 
-        li {
-            float: left;
-        }
 
-        li:first-child a {
-            border-left: 0;
-        }
 
-        a {
-            display: inline-block;
-            margin: 14px 0;
-            padding: 0 15px;
-            border-left: 1px solid #d7d7d7;
-            color: #999999;
-            line-height: 15px;
-            font-size: 12px;
 
-            &:hover {
-                color: #F47920;
-                text-decoration: none;
 
-            }
-        }
 
+<<<<<<< HEAD
+
+=======
     }
 
     .header-logo  {
@@ -55,10 +33,13 @@ header {
     line-height: 22px;
     margin-bottom: 30px;
 }
+>>>>>>> 7242d6bbff6771051ec20398c55600aa5927f0b3
 
 //sass --watch src/scss/main.scss:src/css/style.css
 
 @import "mixin";
+@import "mixin__huyen";
+@import "header";
 @import "footer";
 @import "mainTinTuc";
 @import "lienHe";
