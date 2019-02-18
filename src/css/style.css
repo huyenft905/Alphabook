@@ -182,7 +182,7 @@ header .header-main {
       width: calc(50% - 10px);
       background-color: #F47920;
       line-height: 46px;
-      text-align: center; }
+      text-align: center; cursor: pointer }
       @media only screen and (min-width: 992px) {
         header .header-main__btn .btn__wrap {
           width: 100%; } }
