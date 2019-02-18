@@ -50,10 +50,13 @@ header {
 
 }
 .post{
-    font-size: 12px;
-    color: #666666;
-    line-height: 22px;
     margin-bottom: 30px;
+    p{
+        font-size: 12px;
+        color: #666666;
+        line-height: 22px;
+    }
+
 }
 
 //sass --watch src/scss/main.scss:src/css/style.css
