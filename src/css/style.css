@@ -26,6 +26,12 @@ body {
 .no-padding__right {
   padding-right: 0; }
 
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none; }
+
 header .header-top {
   background: #F2F2F2; }
   header .header-top__nav {
@@ -182,7 +188,7 @@ header .header-main {
       width: calc(50% - 10px);
       background-color: #F47920;
       line-height: 46px;
-      text-align: center; cursor: pointer }
+      text-align: center; }
       @media only screen and (min-width: 992px) {
         header .header-main__btn .btn__wrap {
           width: 100%; } }
