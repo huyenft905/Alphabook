@@ -1,3 +1,13 @@
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+//** fix component of huyen
+
 header {
     .header-top {
         background: #F2F2F2;
@@ -179,7 +189,7 @@ header {
                 }
             }
 
-            .{
+            .btn__wrap{
                 width: calc(50% - 10px);
                 background-color: #F47920;
                 line-height: 46px;

@@ -1,4 +1,6 @@
 
+//sass --watch src/scss/main.scss:src/css/style.css
+
 @import "mixin";
 @import "mixin__huyen";
 @import "header";
@@ -6,7 +8,3 @@
 @import "mainTinTuc";
 @import "lienHe";
 @import "product";
-
-
-//sass --watch src/scss/main.scss:src/css/style.css
-
