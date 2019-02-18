@@ -266,28 +266,32 @@ body {
 .mainTinTuc .container {
   padding: 0; }
 
-.breadcrumb {
-  border-radius: 0; }
-
 .news-wrap {
   float: right;
   padding-right: 0; }
 
-.breadcrumb ul {
-  list-style-type: none;
-  margin: 0; }
-.breadcrumb li {
-  display: inline-block;
-  line-height: 16px;
-  font-size: 12px; }
-.breadcrumb a {
-  color: #444; }
-  .breadcrumb a:hover {
-    text-decoration: none; }
-.breadcrumb strong {
-  color: #e66430; }
-.breadcrumb i {
-  padding: 0 3px; }
+.breadcrumb {
+  border-radius: 0;
+  color: #1a1a1a; }
+  .breadcrumb h3 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 15px; }
+  .breadcrumb ul {
+    list-style-type: none;
+    margin: 0; }
+  .breadcrumb li {
+    display: inline-block;
+    line-height: 16px;
+    font-size: 12px; }
+  .breadcrumb a {
+    color: #444; }
+    .breadcrumb a:hover {
+      text-decoration: none; }
+  .breadcrumb strong {
+    color: #e66430; }
+  .breadcrumb i {
+    padding: 0 3px; }
 
 .news:before, .news:after {
   display: block;
@@ -339,7 +343,17 @@ body {
   line-height: 18px;
   font-size: 12px; }
 .news .gird-table {
-  display: table; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .news .gird-table:before, .news .gird-table:after {
+    display: block;
+    content: '';
+    line-height: 0; }
+  .news .gird-table:after {
+    clear: both; }
 
 .news-list li {
   list-style-type: none; }
@@ -358,7 +372,7 @@ body {
     text-decoration: none; }
 
 .news-list__img {
-  width: 45%;
+  width: 25%;
   display: inline-block;
   float: left; }
   .news-list__img img {
@@ -368,7 +382,7 @@ body {
   font-size: 14px;
   display: inline-block;
   float: left;
-  width: 55%;
+  width: 75%;
   color: #e66430;
   padding-left: 10px; }
   .news-list__contents h4 {
@@ -412,6 +426,8 @@ body {
 
 .banner-left {
   position: relative; }
+  .banner-left img {
+    width: 100%; }
 
 .banner-left__hover:hover {
   height: 100%;
@@ -430,11 +446,9 @@ body {
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   width: 100%;
-  -webkit-transition-timing-function: ease-out 0;
-          transition-timing-function: ease-out 0;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
   z-index: -1; }
-.banner-left__hover img {
-  width: 100%; }
 
 .hot-news-week {
   border-color: #ffffff;
@@ -448,7 +462,8 @@ body {
     clear: both; }
   .hot-news-week h4 {
     padding-left: 10px;
-    color: #000000; }
+    color: #000000;
+    font-size: 14px; }
 
 .hot-img {
   width: 25%;
