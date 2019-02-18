@@ -1,0 +1,31 @@
+.product-info{
+    padding-left: 0;
+    @include clear-fix;
+}
+.product-img{
+    padding-left: 0;
+    @include clear-fix;
+}
+.product-item{
+    border: #d9d9d9 0.5px solid;
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+.product-proofread{
+    float: right;
+    padding: 10px;
+    display: block;
+}
+.product-img1{
+    width: 100%;
+}
+#sync2{
+    float: left;
+    margin: 5px 0;
+}
+.synced{
+    border: #d9d9d9 0.5px solid;
+    float: left;
+    padding: 7px;
+}
