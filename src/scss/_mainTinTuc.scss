@@ -90,6 +90,9 @@
         overflow: hidden;
         line-height: 18px;
         font-size: 12px;
+        p{
+            color: #666666
+        }
     }
     .gird-table{
         display: flex;
@@ -166,6 +169,7 @@
             color: #fff;
             line-height: 35px;
         }
+
     }
 
 }
@@ -198,10 +202,13 @@
     border-color: #ffffff;
     background-color: #f9f9f9;
     padding: 12px 0px 0 0 ;
+    display: flex;
+    flex-wrap: wrap;
     h4{
         padding-left: 10px;
         color: #000000;
         font-size: 14px;
+        width: 100%;
     }
 }
 .hot-img{
@@ -230,4 +237,62 @@
 }
 .hot-date{
     font-size: 12px;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .news{
+        .news-p{
+            height: 120px;
+        }
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {}
+        .banner-left{
+            display: none;
+        }
+        .news-list{
+            margin-bottom: 30px;
+        }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .news{
+        .news-p{
+            height: 100px;
+        }
+    }
+    .news-list{
+        padding-left: 15px;
+    }
+
+}
+@media only screen and (max-width : 600px) {
+    .hot-news-item{
+        width: 100%;
+    }
+    .news{
+        .news-p{
+            height: 130px;
+        }
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .news-pagination{
+        li{
+            font-size: 12px;
+            width: 30px;
+            height: 30px;
+            a{
+                line-height: 30px;
+            }
+
+        }
+    }
+
 }
