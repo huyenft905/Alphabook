@@ -59,6 +59,14 @@
   clear: both !important;
   display: block; }
 
+.nav__book-list .toggle {
+  display: block; }
+
+.show-icon:after {
+  content: "\f067";
+  color: #fff;
+  font: normal normal normal 15px/1 FontAwesome; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -578,7 +586,8 @@ header .header-main {
     background-color: #F47920;
     padding: 15px 19px;
     float: left;
-    position: relative; }
+    position: relative;
+    cursor: pointer; }
   .nav__book-content h3 {
     margin: 0;
     color: #ffffff;
@@ -602,7 +611,8 @@ header .header-main {
     border-color: rgba(0, 0, 0, 0.1);
     border-style: solid;
     border-width: 0 1px 1px;
-    background: #fff; }
+    background: #fff;
+    display: none; }
     .nav__book-box ul {
       position: relative; }
       .nav__book-box ul li a {

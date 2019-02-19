@@ -54,3 +54,11 @@
     clear: both !important;
     display: block;
 }
+.nav__book-list .toggle{
+    display: block;
+}
+.show-icon:after{
+    content: "\f067";
+    color: #fff;
+    font: normal normal normal 15px/1 FontAwesome;
+}
