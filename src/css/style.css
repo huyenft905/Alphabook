@@ -818,3 +818,47 @@ ul {
   border: #d9d9d9 0.5px solid;
   float: left;
   padding: 7px; }
+
+.product-description h2 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  margin-top: 8px;
+  margin-bottom: 10px; }
+
+.short-description b {
+  color: #999;
+  font-size: 12px; }
+
+.stock-status {
+  margin-bottom: 10px;
+  color: #F47920;
+  font-size: 13px; }
+
+.old-price {
+  color: #6f6666;
+  display: inline-block;
+  font-size: 13px;
+  text-decoration: line-through; }
+
+.special-price {
+  color: #F47920;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold; }
+
+.compare-price {
+  color: #999;
+  display: inline-block;
+  font-size: 14px; }
+
+.des_content {
+  color: #999;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0;
+  background: 0;
+  border: 0; }
