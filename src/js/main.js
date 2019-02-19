@@ -37,3 +37,13 @@ $(document).ready(function () {
 //        $(".nav__mega-link").toggleClass("active")
 //    });
 // });
+
+//Toggle sidebar
+
+$(document).ready(function () {
+   $(".nav__book-list").click(function () {
+       $(".nav__book-box").animate({
+            height : 'toggle'
+       });
+   });
+});

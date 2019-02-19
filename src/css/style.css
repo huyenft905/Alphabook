@@ -1,4 +1,72 @@
 @charset "UTF-8";
+/**
+*
+*Setting
+*
+*/
+.active {
+  color: #F47920 !important; }
+
+.news-list__img {
+  width: 50% !important; }
+
+.news-list__contents {
+  width: 50% !important; }
+
+.news-list__contents h4 {
+  font-size: 13px !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.banner-left__hover a {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s; }
+  .banner-left__hover a:before {
+    height: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgba(255, 255, 255, 0.45);
+    background: rgba(255, 255, 255, 0.15);
+    content: "";
+    position: absolute;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    width: 100%;
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+    z-index: -1; }
+
+.banner-left__hover a:hover::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  z-index: 1; }
+
+.news-list {
+  margin-bottom: 45px !important; }
+
+.banner-left img {
+  max-width: 100% !important;
+  height: auto !important; }
+
+.news-list__item a:after {
+  content: '';
+  clear: both !important;
+  display: block; }
+
+.nav__book-list .toggle {
+  display: block; }
+
+.show-icon:after {
+  content: "\f067";
+  color: #fff;
+  font: normal normal normal 15px/1 FontAwesome; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -517,7 +585,9 @@ header .header-main {
     width: 25%;
     background-color: #F47920;
     padding: 15px 19px;
-    float: left; }
+    float: left;
+    position: relative;
+    cursor: pointer; }
   .nav__book-content h3 {
     margin: 0;
     color: #ffffff;
@@ -532,6 +602,36 @@ header .header-main {
         content: "\f067";
         color: #fff;
         font: normal normal normal 15px/1 FontAwesome; }
+  .nav__book-box {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    z-index: 999;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    border-width: 0 1px 1px;
+    background: #fff;
+    display: none; }
+    .nav__book-box ul {
+      position: relative; }
+      .nav__book-box ul li a {
+        color: #444;
+        display: block;
+        font-size: 12px;
+        font-weight: normal;
+        padding: 0px 0 0px 20px;
+        text-transform: capitalize;
+        line-height: 35px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+        .nav__book-box ul li a:hover {
+          color: #e66430;
+          text-decoration: none; }
+        .nav__book-box ul li a i {
+          float: right;
+          padding: 10px;
+          font-size: 14px; }
   .nav__mega-menu {
     width: 58.33333333%;
     float: left; }
@@ -563,9 +663,6 @@ header .header-main {
       display: inline-block; }
       .nav__phone-img a:hover {
         text-decoration: none; }
-
-.active {
-  color: #F47920 !important; }
 
 .footer {
   background-color: #313131;
@@ -988,7 +1085,9 @@ header .header-main {
   text-align: center;
   border-style: solid;
   border-width: 0.5px 0;
-  border-color: #eeeeee; }
+  border-color: #eeeeee;
+  margin-top: 25px;
+  margin-bottom: 55px; }
   .news-pagination:before, .news-pagination:after {
     display: block;
     content: '';
@@ -1023,27 +1122,6 @@ header .header-main {
   position: relative; }
   .banner-left img {
     width: 100%; }
-
-.banner-left__hover:hover {
-  height: 100%;
-  border-style: solid;
-  border-width: 10px;
-  border-color: rgba(255, 255, 255, 0.45);
-  background: rgba(255, 255, 255, 0.15);
-  content: "";
-  position: absolute;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
-  width: 100%;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-  z-index: -1; }
 
 .hot-news-week {
   border-color: #ffffff;
@@ -1101,9 +1179,6 @@ header .header-main {
   .news .news-p {
     height: 120px; } }
 /* Medium Devices, Desktops */
-.banner-left {
-  display: none; }
-
 .news-list {
   margin-bottom: 30px; }
 

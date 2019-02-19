@@ -48,6 +48,7 @@ header {
         margin: 0;
         padding-bottom: 33px;
         padding-top: 32px;
+
         img {
             width: 100%;
             @include respond-to(max767) {
@@ -234,9 +235,12 @@ header {
         background-color: #F47920;
         padding: 15px 19px;
         float: left;
+        position: relative;
+        cursor: pointer;
         //margin-right: 15px;
 
     }
+
 
     &__book-content {
         h3 {
@@ -259,22 +263,65 @@ header {
             }
         }
     }
-    &__mega-menu{
+
+    &__book-box {
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        left: 0;
+        z-index: 999;
+        border-color: rgba(0, 0, 0, 0.1);
+        border-style: solid;
+        border-width: 0 1px 1px;
+        background: #fff;
+        display: none;
+
+        ul {
+            position: relative;
+            li {
+                a {
+                    color: #444;
+                    display: block;
+                    font-size: 12px;
+                    font-weight: normal;
+                    padding: 0px 0 0px 20px;
+                    text-transform: capitalize;
+                    line-height: 35px;
+                    transition: all 0.3s ease-in-out;
+                    &:hover{
+                        color: #e66430;
+                        text-decoration: none;
+                    }
+                    i {
+                        float: right;
+                        padding: 10px;
+                        font-size: 14px;
+
+                    }
+                }
+            }
+        }
+    }
+
+    &__mega-menu {
         width: 58.33333333%;
         float: left;
-        nav{
-            ul{
-                li{
+
+        nav {
+            ul {
+                li {
                     display: inline-block;
                     padding: 0 15px;
-                    .nav__mega-link{
+
+                    .nav__mega-link {
                         line-height: 50px;
                         display: block;
                         color: #fff;
                         font-size: 12px;
                         text-transform: uppercase;
                         transition: all 0.3s ease-in-out;
-                        &:hover, &:focus{
+
+                        &:hover, &:focus {
                             text-decoration: none;
                             color: #F47920;
                         }
@@ -283,23 +330,28 @@ header {
             }
         }
     }
-    &__phone{
+
+    &__phone {
         width: 15.5%;
         float: left;
     }
-    &__phone-img{
+
+    &__phone-img {
         background-color: #F47920;
         cursor: pointer;
-        img{
+
+        img {
 
         }
-        a{
+
+        a {
             line-height: 50px;
             color: #fff;
             font-size: 14px;
             font-weight: bold;
             display: inline-block;
-            &:hover{
+
+            &:hover {
                 text-decoration: none;
             }
 
@@ -307,7 +359,3 @@ header {
     }
 }
 
-// Class toogle
-.active{
-    color: #F47920 !important;
-}
