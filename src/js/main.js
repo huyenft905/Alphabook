@@ -29,3 +29,11 @@ $(document).ready(function () {
 
     }); // click() scroll top EMD
 });
+
+// Active class navigation
+
+// $(document).ready(function () {
+//    $(".nav__mega-link").click(function () {
+//        $(".nav__mega-link").toggleClass("active")
+//    });
+// });

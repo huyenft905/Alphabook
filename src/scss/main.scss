@@ -1,6 +1,6 @@
 
 //sass --watch src/scss/main.scss:src/css/style.css
-
+@import "normalize";
 @import "mixin";
 @import "mixin__huyen";
 @import "header";
