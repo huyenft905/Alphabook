@@ -193,10 +193,15 @@ header .header-main {
 
 .footer {
   background-color: #313131;
-  font-family: inherit;
-  font-size: 12px; }
+  font-family: inherit; }
   .footer .container {
     padding: 30px 0 15px 0; }
+
+.footer-top {
+  padding: 20px 0 0; }
+
+.footer-info-box ul li span a {
+  font-size: 13px; }
 
 .scrollTop {
   position: fixed;
@@ -233,6 +238,11 @@ header .header-main {
   list-style-type: none; }
 .footer-info-box li {
   margin-bottom: 15px; }
+  .footer-info-box li a {
+    text-decoration: none;
+    font-size: 13px; }
+    .footer-info-box li a:hover {
+      color: #fff; }
   .footer-info-box li img {
     width: 136px;
     height: 54px; }
@@ -249,7 +259,9 @@ header .header-main {
 .footer-info-box span {
   color: #989898; }
   .footer-info-box span a {
-    color: #989898; }
+    color: #989898;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
     .footer-info-box span a:hover {
       color: #ffffff;
       text-decoration: none; }
@@ -360,8 +372,9 @@ header .header-main {
   clear: both; }
 
 #email {
+  font-size: 12px;
   line-height: 35px;
-  background-color: #313131;
+  background-color: rgba(255, 255, 255, 0.2);
   width: 220px;
   border: none; }
 
@@ -384,16 +397,17 @@ header .header-main {
     padding: 10px; }
 
 .subcribe {
+  font-size: 14px;
   line-height: 35px;
   background-color: #313131;
   width: 50px;
   margin-left: 10px;
   color: #ffffff;
-  border: none;
-  font-weight: bold; }
+  border: none; }
 
 .copyright-info {
   line-height: 35px;
+  font-size: 13px;
   color: #666666; }
   .copyright-info a {
     color: #989898; }
@@ -413,7 +427,9 @@ header .header-main {
   height: 35px;
   text-align: center;
   margin-right: 3px;
-  background-color: #313131; }
+  background-color: #313131;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
   .icon-social a {
     color: #ffffff;
     line-height: 35px;
@@ -679,6 +695,10 @@ header .header-main {
   float: left; }
   .hot-img img {
     width: 100%; }
+
+.hot-news-week h4 {
+  margin: 0;
+  padding: 15px 10px; }
 
 .hot-content {
   width: 75%;

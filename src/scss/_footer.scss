@@ -1,10 +1,16 @@
 .footer{
     background-color: #313131;
     font-family: inherit;
-    font-size: 12px;
+    //font-size: 12px;
     .container{
         padding: 30px 0 15px 0;
     }
+}
+.footer-top{
+    padding: 20px 0 0;
+}
+.footer-info-box ul li span a{
+    font-size: 13px;
 }
 .scrollTop{
     position: fixed;
@@ -39,6 +45,15 @@
     }
     li{
         margin-bottom: 15px;
+        a{
+            text-decoration: none;
+
+            font-size: 13px;
+            &:hover{
+                color: #fff;
+            }
+
+        }
         img{
             width: 136px;
             height: 54px;
@@ -59,6 +74,7 @@
         color: #989898 ;
         a{
             color: #989898;
+            transition: all 0.3s ease-in-out 0s;
             &:hover{
                 color: #ffffff;
                 text-decoration: none;
@@ -174,8 +190,9 @@
     @include clear-fix;
 }
 #email {
+    font-size: 12px;
     line-height: 35px;
-    background-color: #313131;
+    background-color: rgba(255,255,255,0.2);
     width: 220px;
     border: none;
 }
@@ -205,16 +222,18 @@
     }
 }
 .subcribe{
+    font-size: 14px;
     line-height: 35px;
     background-color: #313131;
     width: 50px;
     margin-left: 10px;
     color: #ffffff;
     border: none;
-    font-weight: bold;
+
 }
 .copyright-info{
     line-height: 35px;
+    font-size: 13px;
     color: #666666;
     a{
         color: #989898;
@@ -238,6 +257,7 @@
     text-align: center;
     margin-right: 3px;
     background-color: #313131;
+    transition: all 0.3s ease-in-out;
     a{
         color: #ffffff;
         line-height: 35px;
