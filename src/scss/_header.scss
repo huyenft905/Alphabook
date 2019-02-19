@@ -11,9 +11,11 @@ ul {
 header {
     .header-top {
         background: #F2F2F2;
+        height: 40px;
 
         &__nav {
             float: right;
+            margin-bottom: 15px;
         }
 
         li {
@@ -41,16 +43,17 @@ header {
         }
 
     }
-    
-    .header-logo {
-        margin-top: 33px;
 
+    .header-logo {
+        margin: 0;
+        padding-bottom: 33px;
+        padding-top: 32px;
         img {
             width: 100%;
             @include respond-to(max767) {
                 width: auto;
             }
-    
+
             @include respond-to(min768) {
                 width: auto;
             }
@@ -80,7 +83,7 @@ header {
             order: 2;
             width: 100%;
             margin-top: 15px;
-            position: relative; 
+            position: relative;
 
             @include respond-to(min768) {
                 order: 1;
@@ -92,10 +95,10 @@ header {
                 order: 1;
                 margin-top: 0;
                 width: 80%;
-                margin-left: 40px;
+                margin-left: 130px !important;
             }
 
-            
+
             @include respond-to(min1200) {
                 order: 1;
                 margin-top: 0;
@@ -112,6 +115,7 @@ header {
                 height: 48px;
                 line-height: 48px;
                 padding: 0 45px 0 20px;
+                margin-left: -5px;
 
                 &:focus + .icon-search {
                     background: #F47920;
@@ -122,7 +126,7 @@ header {
             .icon-search {
                 position: absolute;
                 width: 48px;
-                height: 50px;
+                height: 48px;
                 text-align: center;
                 line-height: 48px;
                 color: #111;
@@ -150,7 +154,7 @@ header {
             color: #fff;
 
             @include respond-to(min768) {
-                order:2;
+                order: 2;
                 width: calc(50% - 10px);
                 justify-content: flex-end;
             }
@@ -172,24 +176,25 @@ header {
                 @include respond-to(min768) {
                     margin-right: 5px;
                 }
+
                 span {
                     position: relative;
-                    
+
                     &::before {
                         position: absolute;
                         font-family: 'FontAwesome', sans-serif;
                         content: "\f095";
                         left: -16px;
 
-                    @include respond-to(min768) {
-                        display: none;
-                    }
+                        @include respond-to(min768) {
+                            display: none;
+                        }
 
                     }
                 }
             }
 
-            .btn__wrap{
+            .btn__wrap {
                 width: calc(50% - 10px);
                 background-color: #F47920;
                 line-height: 46px;
@@ -202,6 +207,8 @@ header {
                 }
 
                 .btn__cart {
+                    height: 100%;
+
                     i {
                         margin-right: 10px;
                     }
@@ -214,4 +221,93 @@ header {
         }
     }
 
+}
+
+/** Dũng fix header navigation
+ */
+.nav {
+    background: #444;
+    margin-bottom: 15px;
+
+    &__book-list {
+        width: 25%;
+        background-color: #F47920;
+        padding: 15px 19px;
+        float: left;
+        //margin-right: 15px;
+
+    }
+
+    &__book-content {
+        h3 {
+            margin: 0;
+            color: #ffffff;
+            display: block;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 20px;
+            text-transform: uppercase;
+
+            em {
+                float: right;
+
+                &:before {
+                    content: "\f067";
+                    color: #fff;
+                    font: normal normal normal 15px/1 FontAwesome;
+                }
+            }
+        }
+    }
+    &__mega-menu{
+        width: 58.33333333%;
+        float: left;
+        nav{
+            ul{
+                li{
+                    display: inline-block;
+                    padding: 0 15px;
+                    .nav__mega-link{
+                        line-height: 50px;
+                        display: block;
+                        color: #fff;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        transition: all 0.3s ease-in-out;
+                        &:hover, &:focus{
+                            text-decoration: none;
+                            color: #F47920;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__phone{
+        width: 15.5%;
+        float: left;
+    }
+    &__phone-img{
+        background-color: #F47920;
+        cursor: pointer;
+        img{
+
+        }
+        a{
+            line-height: 50px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            display: inline-block;
+            &:hover{
+                text-decoration: none;
+            }
+
+        }
+    }
+}
+
+// Class toogle
+.active{
+    color: #F47920 !important;
 }
