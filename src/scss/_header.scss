@@ -196,8 +196,6 @@ header {
             }
 
 
-            {
-
             .btn__wrap {
 
                 width: calc(50% - 10px);
@@ -245,7 +243,6 @@ header {
 
     }
 
-
     &__book-content {
         h3 {
             margin: 0;
@@ -282,6 +279,7 @@ header {
 
         ul {
             position: relative;
+
             li {
                 a {
                     color: #444;
@@ -292,10 +290,12 @@ header {
                     text-transform: capitalize;
                     line-height: 35px;
                     transition: all 0.3s ease-in-out;
-                    &:hover{
+
+                    &:hover {
                         color: #e66430;
                         text-decoration: none;
                     }
+
                     i {
                         float: right;
                         padding: 10px;
