@@ -47,3 +47,18 @@ $(document).ready(function () {
        });
    });
 });
+
+//** Sticky Navigation
+
+//creat variable class
+var yourNavigation = $(".nav");
+stickyDiv = "sticky";
+headerMain = $('.header-main').height();
+// Scroll navigation
+$(window).scroll(function() {
+    if( $(this).scrollTop() > headerMain ) {
+        yourNavigation.addClass(stickyDiv);
+    } else {
+        yourNavigation.removeClass(stickyDiv);
+    }
+});
