@@ -69,3 +69,31 @@ $(window).scroll(function() {
         yourNavigation.removeClass(stickyDiv);
     }
 });
+
+//*************************************** Owl Crousel
+$('.owl-carousel').owlCarousel({
+    animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    rewind: true,
+    autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"flex-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"flex-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:false
+        }
+    }
+});

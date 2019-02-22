@@ -124,6 +124,44 @@
 .btn__wrap .open {
   display: block; }
 
+.owl-dots {
+  display: none; }
+
+.owl-prev {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 3%;
+  outline: none; }
+  .owl-prev i.fa.fa-angle-left {
+    font-size: 45px;
+    line-height: 56px;
+    color: #fff; }
+
+.owl-next {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  outline: none; }
+  .owl-next i.fa.fa-angle-right {
+    font-size: 45px;
+    line-height: 56px;
+    color: #fff; }
+
+.flex-next, .flex-prev {
+  width: 56px;
+  display: inline-block;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-transition: all 0.3s  linear;
+  transition: all 0.3s  linear; }
+  .flex-next:hover, .flex-prev:hover {
+    background: #F47920 !important; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
