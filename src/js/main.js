@@ -47,7 +47,14 @@ $(document).ready(function () {
        });
    });
 });
+// Toggle cart
 
+
+$(document).ready(function () {
+    $(".btn__cart").click(function () {
+        $(".cart__hover").toggleClass("open");
+    });
+});
 //** Sticky Navigation
 
 //creat variable class
