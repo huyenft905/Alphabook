@@ -195,8 +195,7 @@ header {
                 }
             }
 
-
-            {
+        }
 
             .btn__wrap {
 
@@ -226,13 +225,15 @@ header {
         }
     }
 
-}
+
 
 /** Dũng fix header navigation
  */
 .nav {
     background: #444;
     margin-bottom: 15px;
+    height: 50px;
+    line-height: 50px;
 
     &__book-list {
         width: 25%;
@@ -244,7 +245,6 @@ header {
         //margin-right: 15px;
 
     }
-
 
     &__book-content {
         h3 {
@@ -282,6 +282,7 @@ header {
 
         ul {
             position: relative;
+
             li {
                 a {
                     color: #444;
@@ -292,10 +293,12 @@ header {
                     text-transform: capitalize;
                     line-height: 35px;
                     transition: all 0.3s ease-in-out;
-                    &:hover{
+
+                    &:hover {
                         color: #e66430;
                         text-decoration: none;
                     }
+
                     i {
                         float: right;
                         padding: 10px;
@@ -360,6 +363,92 @@ header {
             }
 
         }
+    }
+}
+
+.header-nav{
+    background: #444;
+}
+
+.nav__bookmenu{
+    @include clear-fix;
+    padding: 15px;
+    background-color: #f47920;
+    h3{
+        color: #ffffff;
+        display: block;
+        font-size: 16px;
+        margin: 0;
+        font-weight: bold;
+        line-height: 20px;
+    }
+}
+.header-navigation__list{
+    list-style-type: none;
+}
+.header-navigation__item{
+    display: inline-block;
+    margin-top: 2px;
+    padding: 0 13px;
+    a{
+        line-height: 45px;
+        font-size: 12px;
+        float: left;
+        color: #fff;
+        &:hover{
+            color: #f47920;
+            transition: all 0.3s ease-in-out 0s;
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            -ms-transition: all 0.3s ease-in-out 0s;
+            text-decoration: none;
+        }
+
+    }
+}
+.header-hotline{
+    background-color: #f47920;
+    padding: 5px;
+    img{
+        width: 30%;
+    }
+    h3{
+        color: #ffffff;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0;
+        font-weight: bold;
+        line-height: 40px;
+    }
+}
+.header-nav__list{
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    border-color: #f2f2f2;
+    ul{
+        list-style-type: none;
+    }
+    li{
+        display: block;
+        text-transform: capitalize;
+        position: relative;
+        padding: 4.5px 0px;
+        a{
+            color: #444;
+            font-size: 13px;
+            font-weight: normal;
+            line-height: 30px;
+        }
+
+        i{
+            float: right;
+        }
+    }
+}
+.header-banner__carousel{
+    padding: 30px;
+    .item{
+        width: 847px;
     }
 }
 

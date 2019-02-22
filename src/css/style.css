@@ -1,40 +1,26 @@
 /*
-Error: Invalid CSS after "            }": expected "}", was "{"
-        on line 199 of D:/Working/Alphabook/src/scss/_header.scss
+Error: Invalid CSS after "    }": expected selector or at-rule, was "}"
+        on line 228 of D:/Working/Alphabook/src/scss/_header.scss
         from line 7 of D:\Working\Alphabook\src\scss\main.scss
 
-194:                     }
-195:                 }
-196:             }
-197: 
-198: 
-199:             {
-200: 
-201:             .btn__wrap {
-202: 
-203:                 width: calc(50% - 10px);
-204:                 background-color: #F47920;
+223:                 }
+224:             }
+225:         }
+226:     }
+227: 
+228: }
+229: 
+230: /** Dũng fix header navigation
+231:  *\/
+232: .nav {
+233:     background: #444;
 
 Backtrace:
-D:/Working/Alphabook/src/scss/_header.scss:199
+D:/Working/Alphabook/src/scss/_header.scss:228
 D:\Working\Alphabook\src\scss\main.scss:7
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:679:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
@@ -73,4 +59,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"            }\": expected \"}\", was \"{\"\A         on line 199 of D:/Working/Alphabook/src/scss/_header.scss\A         from line 7 of D:\Working\Alphabook\src\scss\main.scss\A \A 194:                     }\A 195:                 }\A 196:             }\A 197: \A 198: \A 199:             {\A 200: \A 201:             .btn__wrap {\A 202: \A 203:                 width: calc(50% - 10px);\A 204:                 background-color: #F47920;"; }
+  content: "Error: Invalid CSS after \"    }\": expected selector or at-rule, was \"}\"\A         on line 228 of D:/Working/Alphabook/src/scss/_header.scss\A         from line 7 of D:\Working\Alphabook\src\scss\main.scss\A \A 223:                 }\A 224:             }\A 225:         }\A 226:     }\A 227: \A 228: }\A 229: \A 230: /** Dũng fix header navigation\A 231:  */\A 232: .nav {\A 233:     background: #444;"; }
