@@ -212,6 +212,7 @@ header {
 
                 .btn__cart {
                     height: 100%;
+                    cursor: pointer;
 
                     i {
                         margin-right: 10px;
@@ -219,7 +220,7 @@ header {
                 }
 
                 .cart__hover {
-                    display: none;
+
                 }
             }
         }
