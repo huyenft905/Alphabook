@@ -195,6 +195,7 @@ header {
                 }
             }
 
+        }
 
             .btn__wrap {
 
@@ -211,6 +212,7 @@ header {
 
                 .btn__cart {
                     height: 100%;
+                    cursor: pointer;
 
                     i {
                         margin-right: 10px;
@@ -218,19 +220,21 @@ header {
                 }
 
                 .cart__hover {
-                    display: none;
+
                 }
             }
         }
     }
 
-}
+
 
 /** Dũng fix header navigation
  */
 .nav {
     background: #444;
     margin-bottom: 15px;
+    height: 50px;
+    line-height: 50px;
 
     &__book-list {
         width: 25%;

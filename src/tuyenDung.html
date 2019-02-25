@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,15 +20,160 @@
     <!--Css-->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
+<header>
+    <div class="header-top hidden-xs">
+        <div class="container">
+            <ul class="header-top__nav">
+                <li><a href="./TaiKhoanCuaToi.html">Tài Khoản Của Tôi </a></li>
+                <li><a href="#">Yêu Thích </a></li>
+                <li><a href="#">So Sánh </a></li>
+                <li><a href="#">Đăng Nhập</a></li>
+            </ul>
+        </div>
+    </div>
 
+    <div class="header-main">
+        <div class="container">
+            <div class="row">
+                <div class="header-logo col-xs-12 col-md-3">
+                    <a href="#"><img src="images/logo_mobile.png" alt="Logo"></a>
+                </div>
+
+                <div class="header-main col-xs-12 col-md-9">
+                    <div class="row">
+                        <div class="header-main__box col-xs-12">
+                            <div class="header-main__search">
+                                <input type="search" placeholder="Từ khóa tìm kiếm...">
+                                <a class="icon-search" href="#">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="header-main__btn">
+                                <div class="btn__wrap">
+                                    <div class="btn__cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>(<span>1</span>) sản phẩm
+                                    </div>
+                                    <div class="cart__hover">
+                                        <p class="cart-text">1 Sản phẩm trong giỏ hàng</p>
+                                        <p class="cart-desc">Không có sản phẩm nào trong giỏ hàng</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav">
+        <div class="container">
+            <div class="row">
+                <div class="nav__book-list">
+                    <div class="nav__book-content">
+                        <h3><span> <i class="fa fa-bars"></i></span> Danh mục sản sách <em class="open-close"></em></h3>
+                    </div>
+                    <div class="nav__book-box">
+                        <ul>
+                            <li class="nav__book-box-sub">
+                                <a href="#">Alpha Biz <i class="fa fa-angle-right"></i></a>
+                                <!--<ul class="nav__sub-menu">-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Lãnh đạo & Quản lý</a>-->
+                                <!--</li>-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Doanh nhân & Tập đoàn</a>-->
+                                <!--</li>-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Tài chính & Đầu tư</a>-->
+                                <!--</li>-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Nhân sự & Tuyển dụng</a>-->
+                                <!--</li>-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Marketing & Bán hàng</a>-->
+                                <!--</li>-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Truyền thông & Thương hiệu</a>-->
+                                <!--</li>-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Công nghệ & Quy trình</a>-->
+                                <!--</li>-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Văn hóa doanh nghiệp</a>-->
+                                <!--</li>-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Đàm phán & Thuyết phục</a>-->
+                                <!--</li>-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Chứng khoán</a>-->
+                                <!--</li>-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Blockchain & Bitcoin</a>-->
+                                <!--</li>-->
+                                <!--<li class="lv1">-->
+                                <!--<a href="#">Nền Kinh Tế 4.0</a>-->
+                                <!--</li>-->
+                                <!--</ul>-->
+                            </li>
+                            <li class="nav__book-box-sub">
+                                <a href="#">Alpha Gen  <i class="fa fa-angle-right"></i></a>
+                            </li>
+                            <li class="nav__book-box-sub">
+                                <a href="#">Alpha Omega </a>
+                            </li>
+                            <li class="nav__book-box-sub">
+                                <a href="#">Sống - Sách tác giả Việt <i class="fa fa-angle-right"></i></a>
+                            </li>
+                            <li class="nav__book-box-sub">
+                                <a href="#">Sách Khoa Học - Giáo Dục (ETS)  <i class="fa fa-angle-right"></i></a>
+                            </li>
+                            <li class="nav__book-box-sub">
+                                <a href="#">Sách thiếu nhi  <i class="fa fa-angle-right"></i></a>
+                            </li>
+                            <li class="nav__book-box-sub">
+                                <a href="#">Văn Học</a>
+                            </li>
+                            <li class="nav__book-box-sub">
+                                <a href="#">Combo Sách </a>
+                            </li>
+                            <li class="nav__book-box-sub">
+                                <a href="#">Sách Sắp Xuất Bản </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav__mega-menu">
+                    <nav>
+                        <ul>
+                            <li><a class="nav__mega-link  " href="#">Trang Chủ</a></li>
+                            <li><a class="nav__mega-link " href="#">Khuyễn Mãi </a></li>
+                            <li><a class="nav__mega-link " href="#">Khóa học trực tuyến</a></li>
+                            <li><a class="nav__mega-link active " href="#">Tin Tức</a></li>
+                            <li><a class="nav__mega-link " href="#">Liên hệ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav__phone">
+                    <div class="nav__phone-content">
+                        <div class="nav__phone-img">
+                            <img src="images/phone.png" alt="">
+                            <a href="">1900 2647</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 <main class="mainTuyenDung">
     <div class="container">
         <div class="breadcrumb">
             <ul>
                 <li class="homePage">
-                    <a href="#" title="Trang Chủ" >TRANG CHỦ</a>
+                    <a href="#" title="Trang Chủ">TRANG CHỦ</a>
                     <i class="fa fa-angle-right" aria-hidden="true"></i>
                 </li>
                 <li>
@@ -40,7 +186,7 @@
                 <div class="row gird-table">
                     <div class="news-content col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="news-img">
-                            <img  src="images/2-c49930b0-a019-4f8c-ba6a-53029b9ff99e.jpg" alt="Alpha Books tuyển dụng Biên tập viên dòng sách ngoại ngữ">
+                            <img src="images/2-c49930b0-a019-4f8c-ba6a-53029b9ff99e.jpg" alt="Alpha Books tuyển dụng Biên tập viên dòng sách ngoại ngữ">
                         </div>
 
                         <a href="#"><h2>Alpha Books tuyển dụng Biên tập viên dòng sách ngoại ngữ</h2></a>
@@ -56,7 +202,7 @@
                     </div>
                     <div class="news-content col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="news-img">
-                            <img  src="images/1-d0fd17a1-7982-4bd1-8f44-9cf0d0830d2f-4dd0ccda-9346-4027-90ed-0b6af19bc563.jpg" alt="Alpha Books tuyển dụng vị trí Nhân viên thiết kế">
+                            <img src="images/1-d0fd17a1-7982-4bd1-8f44-9cf0d0830d2f-4dd0ccda-9346-4027-90ed-0b6af19bc563.jpg" alt="Alpha Books tuyển dụng vị trí Nhân viên thiết kế">
                         </div>
 
                         <a href="#"><h2>Alpha Books tuyển dụng vị trí Nhân viên thiết kế</h2></a>
@@ -72,7 +218,7 @@
                     </div>
                     <div class="news-content col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="news-img">
-                            <img  src="images/12-142ab27c-7439-4b0d-b388-301c10e079bd-7a4f9679-6809-49dc-9af8-7d51034b85e6.jpg" alt="Alpha Books tuyển dụng vị trí Chuyên viên Hành Chính Nhân sự tổng hợp">
+                            <img src="images/12-142ab27c-7439-4b0d-b388-301c10e079bd-7a4f9679-6809-49dc-9af8-7d51034b85e6.jpg" alt="Alpha Books tuyển dụng vị trí Chuyên viên Hành Chính Nhân sự tổng hợp">
                         </div>
 
                         <a href="#"><h2>Alpha Books tuyển dụng vị trí Chuyên viên Hành Chính Nhân sự tổng hợp</h2></a>
@@ -83,20 +229,12 @@
                             </em>
                         </span>
                         <div class="news-p">
-                            <p>  Kinh nghiệm:  1 – 2 năm
-                                Mức lương:  Cạnh tranh
-                                Địa điểm làm việc:  TP. Hồ Chí Minh
-                                Hạn nhận hồ sơ:  20/12/2018
-                                Mô tả công việc
-                                • Về Nhân sự
-                                - Thực hiện các công việc liên quan đến công tác tuyển dụng nhân sự.
-                                - Tính lương, BHXH và thực hiện các nghiệp vụ liên quan.
-                                - Giải quyết các chế độ cho người lao động và giải đáp những thắc mắc của người lao động liên quan đến các chế độ....</p>
+                            <p> Kinh nghiệm: 1 – 2 năm Mức lương: Cạnh tranh Địa điểm làm việc: TP. Hồ Chí Minh Hạn nhận hồ sơ: 20/12/2018 Mô tả công việc • Về Nhân sự - Thực hiện các công việc liên quan đến công tác tuyển dụng nhân sự. - Tính lương, BHXH và thực hiện các nghiệp vụ liên quan. - Giải quyết các chế độ cho người lao động và giải đáp những thắc mắc của người lao động liên quan đến các chế độ....</p>
                         </div>
                     </div>
                     <div class="news-content col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="news-img">
-                            <img  src="images/4-d4c9fd38-e38c-4e9b-9e50-ffab10baa064-a209f4e3-0ebe-499c-8763-7b844d7e598b.jpg" alt="Alpha Books tuyển dụng vị trí Kế toán thanh toán kiêm thủ quỹ tại chi nhánh">
+                            <img src="images/4-d4c9fd38-e38c-4e9b-9e50-ffab10baa064-a209f4e3-0ebe-499c-8763-7b844d7e598b.jpg" alt="Alpha Books tuyển dụng vị trí Kế toán thanh toán kiêm thủ quỹ tại chi nhánh">
                         </div>
 
                         <a href="#"><h2>Alpha Books tuyển dụng vị trí Kế toán thanh toán kiêm thủ quỹ tại chi nhánh</h2></a>
@@ -107,22 +245,12 @@
                             </em>
                         </span>
                         <div class="news-p">
-                            <p>  Kinh nghiệm:  ít nhất 01 năm
-                                Yêu cầu bằng cấp:  Đại học
-                                Số lượng cần tuyển:  01
-                                Hình thức làm việc:  Toàn thời gian cố định
-                                Yêu cầu giới tính:  Không yêu cầu
-                                Ngành nghề:  Kế toán - Kiểm toán
-
-                                Mô tả công việc
-                                • Hạch toán các khoản chi phi hoạt động tại chi nhánh.
-                                • Tập hợp chứng từ chuyển kho từ Kho SG báo cáo Hà Nội.
-                                • Tập hợp phiếu nhập sách ngoài để phục vụ hội chợ/Thanh toán...</p>
+                            <p> Kinh nghiệm: ít nhất 01 năm Yêu cầu bằng cấp: Đại học Số lượng cần tuyển: 01 Hình thức làm việc: Toàn thời gian cố định Yêu cầu giới tính: Không yêu cầu Ngành nghề: Kế toán - Kiểm toán Mô tả công việc • Hạch toán các khoản chi phi hoạt động tại chi nhánh. • Tập hợp chứng từ chuyển kho từ Kho SG báo cáo Hà Nội. • Tập hợp phiếu nhập sách ngoài để phục vụ hội chợ/Thanh toán...</p>
                         </div>
                     </div>
                     <div class="news-content col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="news-img">
-                            <img  src="images/12-142ab27c-7439-4b0d-b388-301c10e079bd-7a4f9679-6809-49dc-9af8-7d51034b85e6.jpg" alt="Alpha Books tuyển dụng Chuyên viên kinh doanh Ngoại ngữ">
+                            <img src="images/12-142ab27c-7439-4b0d-b388-301c10e079bd-7a4f9679-6809-49dc-9af8-7d51034b85e6.jpg" alt="Alpha Books tuyển dụng Chuyên viên kinh doanh Ngoại ngữ">
                         </div>
                         <a href="#"><h2>Alpha Books tuyển dụng Chuyên viên kinh doanh Ngoại ngữ</h2></a>
                         <span>
@@ -132,20 +260,12 @@
                             </em>
                         </span>
                         <div class="news-p">
-                            <p>   Kinh nghiệm: 3 năm
-                                Độ tuổi: Từ 23-35
-                                Mức lương: Cạnh tranh
-                                Địa điểm làm việc: Hà Nội
-                                Hạn nhận hồ sơ: 10/12/2018
-                                1. MÔ TẢ CÔNG VIỆC:
-                                - Tìm kiếm, xây dựng, chăm sóc và phát triển hệ thống đối tác, khách hàng cho dòng sách ngoại ngữ.
-                                - Xây dựng các kế hoạch, chương trình bán hàng, marketing sản phẩm phù hợp;
-                                - Thiết lập các kênh bán hàng trực tiếp tại các trường, trung tâm đào tạo, các kênh online &amp; offline. Xây dựng và quản lý đội ngũ CTV bán...</p>
+                            <p> Kinh nghiệm: 3 năm Độ tuổi: Từ 23-35 Mức lương: Cạnh tranh Địa điểm làm việc: Hà Nội Hạn nhận hồ sơ: 10/12/2018 1. MÔ TẢ CÔNG VIỆC: - Tìm kiếm, xây dựng, chăm sóc và phát triển hệ thống đối tác, khách hàng cho dòng sách ngoại ngữ. - Xây dựng các kế hoạch, chương trình bán hàng, marketing sản phẩm phù hợp; - Thiết lập các kênh bán hàng trực tiếp tại các trường, trung tâm đào tạo, các kênh online &amp; offline. Xây dựng và quản lý đội ngũ CTV bán...</p>
                         </div>
                     </div>
                     <div class="news-content col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="news-img">
-                            <img  src="images/4-d4c9fd38-e38c-4e9b-9e50-ffab10baa064-a209f4e3-0ebe-499c-8763-7b844d7e598b.jpg" alt="Alpha Books tuyển dụng Chuyên viên PR-Marketing">
+                            <img src="images/4-d4c9fd38-e38c-4e9b-9e50-ffab10baa064-a209f4e3-0ebe-499c-8763-7b844d7e598b.jpg" alt="Alpha Books tuyển dụng Chuyên viên PR-Marketing">
                         </div>
 
                         <a href="#"><h2>Alpha Books tuyển dụng Chuyên viên PR-Marketing</h2></a>
@@ -156,16 +276,7 @@
                             </em>
                         </span>
                         <div class="news-p">
-                            <p>   Kinh nghiệm: 1 năm
-                                Độ tuổi: Từ 23 - 30
-                                Mức lương: Cạnh tranh
-                                Địa điểm làm việc: Hà Nội
-                                Hạn nhận hồ sơ: 30/11/2018
-                                1. MÔ TẢ CÔNG VIỆC:
-                                - Xây dựng các kế hoạch truyền thông, marketing cho các dự án, các chương trình bán sách nhằm tăng doanh số bán hàng
-                                - Triển khai và phát triển và quản lý web, Page và các chương trình bán hàng, xây dựng content hình ảnh quảng cáo
-                                - Thực hiện các công việc khác theo yêu cầu của cấp trên.
-                                2. YÊU...</p>
+                            <p> Kinh nghiệm: 1 năm Độ tuổi: Từ 23 - 30 Mức lương: Cạnh tranh Địa điểm làm việc: Hà Nội Hạn nhận hồ sơ: 30/11/2018 1. MÔ TẢ CÔNG VIỆC: - Xây dựng các kế hoạch truyền thông, marketing cho các dự án, các chương trình bán sách nhằm tăng doanh số bán hàng - Triển khai và phát triển và quản lý web, Page và các chương trình bán hàng, xây dựng content hình ảnh quảng cáo - Thực hiện các công việc khác theo yêu cầu của cấp trên. 2. YÊU...</p>
                         </div>
                     </div>
                 </div>
@@ -194,7 +305,8 @@
             </div>
             <div class="no-padding__left col-md-3 col-sm-12 col-xs-12">
                 <div class="news-list">
-                    <div class="breadcrumb"><h3>TIN MỚI</h3></div>
+                    <div class="breadcrumb">
+                        <h3>TIN MỚI</h3></div>
                     <ul>
                         <li>
                             <div class="news-list__item">
@@ -213,7 +325,7 @@
                             <div class="news-list__item">
                                 <a href="#">
                                     <div class="news-list__img">
-                                        <img  src="images/tu-duy-nhanh-cham-3d-1.jpg" alt="Cởi trói cho tư duy">
+                                        <img src="images/tu-duy-nhanh-cham-3d-1.jpg" alt="Cởi trói cho tư duy">
                                     </div>
                                     <div class="news-list__contents">
                                         <h4>Cởi trói cho tư duy</h4>
@@ -226,7 +338,7 @@
                             <div class="news-list__item">
                                 <a href="#">
                                     <div class="news-list__img">
-                                        <img  src="images/learn-or-improve-any-skill.jpg" alt="Top 20 cuốn sách kỹ năng sống cho bạn trẻ">
+                                        <img src="images/learn-or-improve-any-skill.jpg" alt="Top 20 cuốn sách kỹ năng sống cho bạn trẻ">
                                     </div>
                                     <div class="news-list__contents">
                                         <h4>Top 20 cuốn sách kỹ năng ...</h4>
@@ -239,7 +351,7 @@
                             <div class="news-list__item">
                                 <a href="#">
                                     <div class="news-list__img">
-                                        <img  src="images/xuan.png" alt="Hội Sách Mùa Xuân">
+                                        <img src="images/xuan.png" alt="Hội Sách Mùa Xuân">
                                     </div>
                                     <div class="news-list__contents">
                                         <h4>Hội Sách Mùa Xuân</h4>
@@ -373,7 +485,9 @@
                             <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Giao Dịch</a></span></li>
                             <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Dịch Vụ Tiện Ích</a></span></li>
                             <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Quyền Sở Hữu Trí Tuệ</a></span></li>
-                            <li><a href="#"><img src="images/bo_cong_thuong.png" alt=""></a></li>
+                            <li>
+                                <a href="#"><img src="images/bo_cong_thuong.png" alt=""></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -384,7 +498,9 @@
                             <div class="footer-fb__top">
                                 <img src="images/28378059_10157340284156840_6219850832763840783_n.jpg" alt="Logo alpha books">
                                 <a href="#"><h2>Alpha Books</h2></a>
-                                <a href="#"><p>396k like</p></a>
+                                <a href="#">
+                                    <p>396k like</p>
+                                </a>
                                 <div class="footer-fb__opacity"></div>
                                 <div class="footer-fb__like">
                                     <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> Like Page</a>
@@ -394,12 +510,24 @@
                                 <div class="footer-fb__wrap">
                                     <p>27 friends like this</p>
                                     <div class="footer-fb__face">
-                                        <div><a href="#"><img src="images/52263566_2283525278566120_6578363882706829312_n.jpg" alt=""></a></div>
-                                        <div><a href="#"><img src="images/36264063_2157336494495949_875863772911108096_n.jpg" alt=""></a></div>
-                                        <div><a href="#"><img src="images/52263566_2283525278566120_6578363882706829312_n.jpg" alt=""></a></div>
-                                        <div><a href="#"><img src="images/36264063_2157336494495949_875863772911108096_n.jpg" alt=""></a></div>
-                                        <div><a href="#"><img src="images/52263566_2283525278566120_6578363882706829312_n.jpg" alt=""></a></div>
-                                        <div><a href="#"><img src="images/36264063_2157336494495949_875863772911108096_n.jpg" alt=""></a></div>
+                                        <div>
+                                            <a href="#"><img src="images/52263566_2283525278566120_6578363882706829312_n.jpg" alt=""></a>
+                                        </div>
+                                        <div>
+                                            <a href="#"><img src="images/36264063_2157336494495949_875863772911108096_n.jpg" alt=""></a>
+                                        </div>
+                                        <div>
+                                            <a href="#"><img src="images/52263566_2283525278566120_6578363882706829312_n.jpg" alt=""></a>
+                                        </div>
+                                        <div>
+                                            <a href="#"><img src="images/36264063_2157336494495949_875863772911108096_n.jpg" alt=""></a>
+                                        </div>
+                                        <div>
+                                            <a href="#"><img src="images/52263566_2283525278566120_6578363882706829312_n.jpg" alt=""></a>
+                                        </div>
+                                        <div>
+                                            <a href="#"><img src="images/36264063_2157336494495949_875863772911108096_n.jpg" alt=""></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -415,7 +543,8 @@
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <form action="" method="post" id="newsletter">
                         <div class="input-group" id="mail-box">
-                            <input id="email"  placeholder="Nhập địa chỉ email của bạn"> <!--class="input_newsletter input-text required-entry validate-email" name="EMAIL" type="email" value=""-->
+                            <input id="email" placeholder="Nhập địa chỉ email của bạn">
+                            <!--class="input_newsletter input-text required-entry validate-email" name="EMAIL" type="email" value=""-->
                             <button type="submit" class="subcribe"><span>Gửi</span></button>
                         </div>
                     </form>
@@ -445,4 +574,5 @@
 <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 </body>
+
 </html>
