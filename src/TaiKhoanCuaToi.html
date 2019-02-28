@@ -24,12 +24,15 @@
 <header>
   <div class="header-top hidden-xs">
     <div class="container">
-      <ul class="header-top__nav">
-        <li><a href="./TaiKhoanCuaToi.html">Tài Khoản Của Tôi </a></li>
-        <li><a href="#">Yêu Thích </a></li>
-        <li><a href="#">So Sánh </a></li>
-        <li><a href="#">Đăng Nhập</a></li>
-      </ul>
+      <div class="row">
+        <ul class="header-top__nav">
+          <li><a href="./TaiKhoanCuaToi.html">Tài Khoản Của Tôi </a></li>
+          <li><a href="#">Yêu Thích </a></li>
+          <li><a href="#">So Sánh </a></li>
+          <li><a href="#">Đăng Nhập</a></li>
+        </ul>
+      </div>
+
     </div>
   </div>
   <div>
@@ -38,11 +41,11 @@
   <div class="header-main">
     <div class="container">
       <div class="row">
-        <div class="header-logo col-xs-12 col-md-3">
+        <div class="header-logo no-padding__left col-xs-12 col-md-3">
           <a href="#"><img src="images/logo_mobile.png" alt="Logo"></a>
         </div>
 
-        <div class="header-main col-xs-12 col-md-9">
+        <div class="header-main no-padding__right col-xs-12 col-md-9">
           <div class="row">
             <div class="header-main__box col-xs-12">
               <div class="header-main__search">
@@ -148,11 +151,11 @@
         <div class="nav__mega-menu">
           <nav>
             <ul>
-              <li><a class="nav__mega-link  " href="#">Trang Chủ</a></li>
-              <li><a class="nav__mega-link " href="#">Khuyễn Mãi </a></li>
-              <li><a class="nav__mega-link " href="#">Khóa học trực tuyến</a></li>
-              <li><a class="nav__mega-link " href="#">Tin Tức</a></li>
-              <li><a class="nav__mega-link " href="#">Liên hệ</a></li>
+              <li><a class="nav__mega-link  " href="./homePage.html">Trang Chủ</a></li>
+              <li><a class="nav__mega-link " href="./khuyenMai.html">Khuyễn Mãi </a></li>
+              <li><a class="nav__mega-link " href="./khuyenMai.html">Khóa học trực tuyến</a></li>
+              <li><a class="nav__mega-link " href="./tinTuc.html">Tin Tức</a></li>
+              <li><a class="nav__mega-link " href="./lienHe.html">Liên hệ</a></li>
             </ul>
           </nav>
         </div>
@@ -160,13 +163,15 @@
           <div class="nav__phone-content">
             <div class="nav__phone-img">
               <img src="images/phone.png" alt="">
-              <a href="">1900 2647</a>
+              <a href="#">1900 2647</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <i class="fa fa-search" aria-hidden="true"></i>
 
 </header>
 <main class="mainMyID">
@@ -218,7 +223,7 @@
       <div class="row multi-columns-row">
         <div class="col-xs-12 col-sm-12 col-lg-3 col-md-3">
           <div class="footer-info-box">
-            <a href="#"><img src="images/logo_footer.png" alt="Logo"></a>
+            <a href="./homePage.html"><img src="images/logo_footer.png" alt="Logo"></a>
             <ul style="margin-top:30px">
               <li>
                 <i class="fa fa-map-marker fa--border" aria-hidden="true"></i><span>176 Thái Hà, Đống Đa, Hà Nội</span>
@@ -237,11 +242,11 @@
           <div class="footer-info-box">
             <h3>THÔNG TIN</h3>
             <ul>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Giới Thiệu</a></span></li>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Nhà Sách</a></span></li>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Phát Hành</a></span></li>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tuyển Dụng</a></span></li>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Liên Hệ</a></span></li>
+              <li><span><a href="./gioiThieu.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Giới Thiệu</a></span></li>
+              <li><span><a href="./heThongNhaSach.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Nhà Sách</a></span></li>
+              <li><span><a href="./heThongPhatHanhMienBac.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Phát Hành</a></span></li>
+              <li><span><a href="./tuyenDung.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tuyển Dụng</a></span></li>
+              <li><span><a href="./lienHe.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Liên Hệ</a></span></li>
             </ul>
           </div>
         </div>
@@ -249,9 +254,9 @@
           <div class="footer-info-box">
             <h3>CHÍNH SÁCH</h3>
             <ul>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Thanh Toán</a></span></li>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Vận Chuyển</a></span></li>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Bảo Mật</a></span></li>
+              <li><span><a href="./chinhSachBaoMat.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Thanh Toán</a></span></li>
+              <li><span><a href="./chinhSachVanChuyen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Vận Chuyển</a></span></li>
+              <li><span><a href="./chinhSachBaoMat.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Bảo Mật</a></span></li>
             </ul>
           </div>
         </div>
@@ -259,10 +264,10 @@
           <div class="footer-info-box">
             <h3>ĐIỀU KHOẢN</h3>
             <ul>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Sử Dụng</a></span></li>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Giao Dịch</a></span></li>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Dịch Vụ Tiện Ích</a></span></li>
-              <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Quyền Sở Hữu Trí Tuệ</a></span></li>
+              <li><span><a href="./dieuKhoanDichVu.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Sử Dụng</a></span></li>
+              <li><span><a href="./dieuKhoanDichVu.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Giao Dịch</a></span></li>
+              <li><span><a href="./dichVuTienIch.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Dịch Vụ Tiện Ích</a></span></li>
+              <li><span><a href="./quyenSoHuuTriTue.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Quyền Sở Hữu Trí Tuệ</a></span></li>
               <li>
                 <a href="#"><img src="images/bo_cong_thuong.png" alt=""></a>
               </li>

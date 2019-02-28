@@ -26,23 +26,28 @@
 <header>
     <div class="header-top hidden-xs">
         <div class="container">
-            <ul class="header-top__nav">
-                <li><a href="./TaiKhoanCuaToi.html">Tài Khoản Của Tôi </a></li>
-                <li><a href="#">Yêu Thích </a></li>
-                <li><a href="#">So Sánh </a></li>
-                <li><a href="#">Đăng Nhập</a></li>
-            </ul>
+            <div class="row">
+                <ul class="header-top__nav">
+                    <li><a href="./TaiKhoanCuaToi.html">Tài Khoản Của Tôi </a></li>
+                    <li><a href="#">Yêu Thích </a></li>
+                    <li><a href="#">So Sánh </a></li>
+                    <li><a href="#">Đăng Nhập</a></li>
+                </ul>
+            </div>
+
         </div>
     </div>
+    <div>
 
+    </div>
     <div class="header-main">
         <div class="container">
             <div class="row">
-                <div class="header-logo col-xs-12 col-md-3">
+                <div class="header-logo no-padding__left col-xs-12 col-md-3">
                     <a href="#"><img src="images/logo_mobile.png" alt="Logo"></a>
                 </div>
 
-                <div class="header-main col-xs-12 col-md-9">
+                <div class="header-main no-padding__right col-xs-12 col-md-9">
                     <div class="row">
                         <div class="header-main__box col-xs-12">
                             <div class="header-main__search">
@@ -148,11 +153,11 @@
                 <div class="nav__mega-menu">
                     <nav>
                         <ul>
-                            <li><a class="nav__mega-link  " href="#">Trang Chủ</a></li>
-                            <li><a class="nav__mega-link active " href="#">Khuyễn Mãi </a></li>
-                            <li><a class="nav__mega-link " href="#">Khóa học trực tuyến</a></li>
-                            <li><a class="nav__mega-link  " href="#">Tin Tức</a></li>
-                            <li><a class="nav__mega-link " href="#">Liên hệ</a></li>
+                            <li><a class="nav__mega-link  " href="./homePage.html">Trang Chủ</a></li>
+                            <li><a class="nav__mega-link active " href="./khuyenMai.html">Khuyễn Mãi </a></li>
+                            <li><a class="nav__mega-link " href="./khuyenMai.html">Khóa học trực tuyến</a></li>
+                            <li><a class="nav__mega-link " href="./tinTuc.html">Tin Tức</a></li>
+                            <li><a class="nav__mega-link " href="./lienHe.html">Liên hệ</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -160,940 +165,945 @@
                     <div class="nav__phone-content">
                         <div class="nav__phone-img">
                             <img src="images/phone.png" alt="">
-                            <a href="">1900 2647</a>
+                            <a href="#">1900 2647</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <i class="fa fa-search" aria-hidden="true"></i>
+
 </header>
 <main class="mainKhuyenMai">
     <div class="container">
-        <div class="breadcrumb">
-            <ul>
-                <li class="homePage">
-                    <a href="#" title="Trang Chủ">TRANG CHỦ</a>
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </li>
-                <li>
-                    <strong>COMBO SÁCH</strong>
-                </li>
-            </ul>
+        <div class="row">
+            <div class="breadcrumb">
+                <ul>
+                    <li class="homePage">
+                        <a href="#" title="Trang Chủ">TRANG CHỦ</a>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <strong>COMBO SÁCH</strong>
+                    </li>
+                </ul>
+            </div>
+            <section class="sale">
+                <div class="sale-wrap col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                    <div class="box-tools">
+                        <div class="view-mode">
+                            <a href="#"><i class="fa fa-th"></i></a>
+                            <a href="#"><i class="fa fa-bars"></i></a>
+                        </div>
+                        <div class="sort-tool">
+                            <p>Sắp xếp :</p>
+                            <select class="sort-select">
+                                <option>Mặc định</option>
+                                <option>A → Z</option>
+                                <option>Z ← A</option>
+                                <option>Giá tăng dần</option>
+                                <option>Giá giam dần</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="sale-list">
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo Phát Triển Bản Thân</h3>
+                                <p class="price-sale">
+                                    <small>396.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>567.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sale-item col-lg-3">
+                            <div class="sale-img">
+                                <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
+                                <div class="prices-reduc">
+                                    <span class="price-percent-reduction">-30%</span>
+                                </div>
+                            </div>
+                            <div class="sale-contents">
+                                <h3>Combo 3 Cuốn Tâm Lý Học</h3>
+                                <p class="price-sale">
+                                    <small>409.000₫</small>
+                                    <span class="compare-price">- 30%</span>
+                                </p>
+                                <p class="price-regular"><small>586.000₫</small></p>
+                                <div class="vote-star">
+                                    <ul>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                                    </ul>
+                                    <span>0</span>
+                                    <img src="images/user.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-pagination">
+                        <ul>
+                            <li>
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">...</a>
+                            </li>
+                            <li>
+                                <a href="#">24</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="no-padding__left col-md-3 col-sm-12 col-xs-12">
+                    <div class="sale-nav">
+                        <div class="breadcrumb">
+                            <h3>DANH MỤC SÁCH</h3></div>
+                        <div class="sale-nav__1">
+                            <a href="#"><h3>ALPHA BIZ</h3></a>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Lãnh đạo & Quản lý</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Doanh nhân & Tập đoàn</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tài chính & Đầu tư</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Nhân sự & Tuyển dụng</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Marketing & Bán hàng</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Truyền thông & Thương hiệu</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Công nghệ & Quy trình</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Văn hóa doanh nghiệp</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Đàm phán và thuyết phục</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Chứng khoán</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Blockchain & Bitcoin</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Nền kinh tế 4.0</a></li>
+
+                            </ul>
+                            <a href="#"><h3>ALPHA GEN</h3></a>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Phát triển cá nhân</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tư duy - Sáng tạo</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Cha mẹ giỏi - Con thông minh</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Học tập</a></li>
+                            </ul>
+                            <a href="#"><h3>ALPHA OMEGA</h3></a>
+                            <a href="#"><h3>SỐNG - SÁCH TÁC GIẢ VIỆT</h3></a>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Kỹ Năng HỌc Tập</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Truyền Cảm Hứng</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Trải Nghiệm Du Học - Văn Hóa - Du Lịch</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Kinh Doanh - Khởi Nghiệp</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Văn Học</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Kỹ Năng Làm Cha Mẹ</a></li>
+                            </ul>
+                            <a href="#"><h3>SÁCH KHOA HỌC - GIÁO DỤC (ETS)</h3></a>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tốp Sách Khoa Học Giáo Dục Hay Nhất</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Độ Tuổi Thiếu Nhi</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Học Sinh - Sinh Viên</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Phổ Biến Khoa Học</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Giáo Dục</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Toán</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Ngoại Ngữ</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Bách Khoa Chi Thức</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Lịch Sử</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Học Cụ Giáo Dục</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Tham Khảo</a></li>
+                            </ul>
+                            <a href="#"><h3>SÁCH THIẾU NHI</h3></a>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tốp 100 Sách Thiếu Nhi Hay Nhất</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Độ tuổi 0 - 3 tuổi</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Độ tuổi 3 - 6 tuổi</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Độ tuổi 6 - 9 tuổi</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Độ tuổi 9 - 15 tuổi</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Kỹ Năng</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Văn Học</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Tranh</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Song Ngữ</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Thẻ Học Thông Minh</a></li>
+                            </ul>
+                            <a href="#"><h3>Văn Học</h3></a>
+                            <a href="#"><h3>Combo Sách</h3></a>
+                            <a href="#"><h3>Sắp Xuất Bản</h3></a>
+                        </div>
+                        <div class="collection-filters-container">
+                            <span>Khoảng giá</span>
+
+                        </div>
+
+                    </div>
+                    <div class="banner-left">
+                        <div class="banner-left__hover">
+                            <a href="">
+                                <img src="images/banner_blog_left.jpg" alt="" class="img-responsive">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="news-list"></div>
+            </section>
         </div>
-        <section class="sale">
-            <div class="sale-wrap col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                <div class="box-tools">
-                    <div class="view-mode">
-                        <a href="#"><i class="fa fa-th"></i></a>
-                        <a href="#"><i class="fa fa-bars"></i></a>
-                    </div>
-                    <div class="sort-tool">
-                        <p>Sắp xếp :</p>
-                        <select class="sort-select">
-                            <option>Mặc định</option>
-                            <option>A → Z</option>
-                            <option>Z ← A</option>
-                            <option>Giá tăng dần</option>
-                            <option>Giá giam dần</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="sale-list">
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/08.jpg" alt="Combo-Phát triển bản thân">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo Phát Triển Bản Thân</h3>
-                            <p class="price-sale">
-                                <small>396.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>567.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="sale-item col-lg-3">
-                        <div class="sale-img">
-                            <img src="images/com-bo-tam-ly-hoc.jpg" alt="Combo 3 cuốn tâm lý học">
-                            <div class="prices-reduc">
-                                <span class="price-percent-reduction">-30%</span>
-                            </div>
-                        </div>
-                        <div class="sale-contents">
-                            <h3>Combo 3 Cuốn Tâm Lý Học</h3>
-                            <p class="price-sale">
-                                <small>409.000₫</small>
-                                <span class="compare-price">- 30%</span>
-                            </p>
-                            <p class="price-regular"><small>586.000₫</small></p>
-                            <div class="vote-star">
-                                <ul>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                </ul>
-                                <span>0</span>
-                                <img src="images/user.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="news-pagination">
-                    <ul>
-                        <li>
-                            <a href="#">1</a>
-                        </li>
-                        <li>
-                            <a href="#">2</a>
-                        </li>
-                        <li>
-                            <a href="#">3</a>
-                        </li>
-                        <li>
-                            <a href="#">...</a>
-                        </li>
-                        <li>
-                            <a href="#">24</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="no-padding__left col-md-3 col-sm-12 col-xs-12">
-                <div class="sale-nav">
-                    <div class="breadcrumb">
-                        <h3>DANH MỤC SÁCH</h3></div>
-                    <div class="sale-nav__1">
-                        <a href="#"><h3>ALPHA BIZ</h3></a>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Lãnh đạo & Quản lý</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Doanh nhân & Tập đoàn</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tài chính & Đầu tư</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Nhân sự & Tuyển dụng</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Marketing & Bán hàng</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Truyền thông & Thương hiệu</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Công nghệ & Quy trình</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Văn hóa doanh nghiệp</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Đàm phán và thuyết phục</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Chứng khoán</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Blockchain & Bitcoin</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Nền kinh tế 4.0</a></li>
-
-                        </ul>
-                        <a href="#"><h3>ALPHA GEN</h3></a>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Phát triển cá nhân</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tư duy - Sáng tạo</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Cha mẹ giỏi - Con thông minh</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Học tập</a></li>
-                        </ul>
-                        <a href="#"><h3>ALPHA OMEGA</h3></a>
-                        <a href="#"><h3>SỐNG - SÁCH TÁC GIẢ VIỆT</h3></a>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Kỹ Năng HỌc Tập</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Truyền Cảm Hứng</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Trải Nghiệm Du Học - Văn Hóa - Du Lịch</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Kinh Doanh - Khởi Nghiệp</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Văn Học</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Kỹ Năng Làm Cha Mẹ</a></li>
-                        </ul>
-                        <a href="#"><h3>SÁCH KHOA HỌC - GIÁO DỤC (ETS)</h3></a>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tốp Sách Khoa Học Giáo Dục Hay Nhất</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Độ Tuổi Thiếu Nhi</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Học Sinh - Sinh Viên</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Phổ Biến Khoa Học</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Giáo Dục</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Toán</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Ngoại Ngữ</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Bách Khoa Chi Thức</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Lịch Sử</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Học Cụ Giáo Dục</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Tham Khảo</a></li>
-                        </ul>
-                        <a href="#"><h3>SÁCH THIẾU NHI</h3></a>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tốp 100 Sách Thiếu Nhi Hay Nhất</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Độ tuổi 0 - 3 tuổi</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Độ tuổi 3 - 6 tuổi</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Độ tuổi 6 - 9 tuổi</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Độ tuổi 9 - 15 tuổi</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Kỹ Năng</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Văn Học</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Tranh</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sách Song Ngữ</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Thẻ Học Thông Minh</a></li>
-                        </ul>
-                        <a href="#"><h3>Văn Học</h3></a>
-                        <a href="#"><h3>Combo Sách</h3></a>
-                        <a href="#"><h3>Sắp Xuất Bản</h3></a>
-                    </div>
-                    <div class="collection-filters-container">
-                        <span>Khoảng giá</span>
-
-                    </div>
-
-                </div>
-                <div class="banner-left">
-                    <div class="banner-left__hover">
-                        <a href="">
-                            <img src="images/banner_blog_left.jpg" alt="" class="img-responsive">
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-            <div class="news-list"></div>
-        </section>
     </div>
 </main>
 <footer class="footer">
@@ -1105,7 +1115,7 @@
             <div class="row multi-columns-row">
                 <div class="col-xs-12 col-sm-12 col-lg-3 col-md-3">
                     <div class="footer-info-box">
-                        <a href="#"><img src="images/logo_footer.png" alt="Logo"></a>
+                        <a href="./homePage.html"><img src="images/logo_footer.png" alt="Logo"></a>
                         <ul style="margin-top:30px">
                             <li>
                                 <i class="fa fa-map-marker fa--border" aria-hidden="true"></i><span>176 Thái Hà, Đống Đa, Hà Nội</span>
@@ -1124,11 +1134,11 @@
                     <div class="footer-info-box">
                         <h3>THÔNG TIN</h3>
                         <ul>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Giới Thiệu</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Nhà Sách</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Phát Hành</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tuyển Dụng</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Liên Hệ</a></span></li>
+                            <li><span><a href="./gioiThieu.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Giới Thiệu</a></span></li>
+                            <li><span><a href="./heThongNhaSach.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Nhà Sách</a></span></li>
+                            <li><span><a href="./heThongPhatHanhMienBac.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Phát Hành</a></span></li>
+                            <li><span><a href="./tuyenDung.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tuyển Dụng</a></span></li>
+                            <li><span><a href="./lienHe.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Liên Hệ</a></span></li>
                         </ul>
                     </div>
                 </div>
@@ -1136,9 +1146,9 @@
                     <div class="footer-info-box">
                         <h3>CHÍNH SÁCH</h3>
                         <ul>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Thanh Toán</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Vận Chuyển</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Bảo Mật</a></span></li>
+                            <li><span><a href="./chinhSachBaoMat.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Thanh Toán</a></span></li>
+                            <li><span><a href="./chinhSachVanChuyen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Vận Chuyển</a></span></li>
+                            <li><span><a href="./chinhSachBaoMat.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Bảo Mật</a></span></li>
                         </ul>
                     </div>
                 </div>
@@ -1146,10 +1156,10 @@
                     <div class="footer-info-box">
                         <h3>ĐIỀU KHOẢN</h3>
                         <ul>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Sử Dụng</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Giao Dịch</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Dịch Vụ Tiện Ích</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Quyền Sở Hữu Trí Tuệ</a></span></li>
+                            <li><span><a href="./dieuKhoanDichVu.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Sử Dụng</a></span></li>
+                            <li><span><a href="./dieuKhoanDichVu.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Giao Dịch</a></span></li>
+                            <li><span><a href="./dichVuTienIch.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Dịch Vụ Tiện Ích</a></span></li>
+                            <li><span><a href="./quyenSoHuuTriTue.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Quyền Sở Hữu Trí Tuệ</a></span></li>
                             <li>
                                 <a href="#"><img src="images/bo_cong_thuong.png" alt=""></a>
                             </li>
