@@ -105,3 +105,8 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+//Click modals
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+})

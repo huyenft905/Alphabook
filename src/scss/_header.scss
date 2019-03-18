@@ -85,6 +85,8 @@ header {
             width: 100%;
             margin-top: 15px;
             position: relative;
+            height: 47px;
+            overflow: hidden;
 
             @include respond-to(min768) {
                 order: 1;
@@ -135,6 +137,9 @@ header {
                 right: 15px;
                 display: inline-block;
                 transition: all 0.3s ease-in-out;
+                &:focus{
+                    outline: none;
+                }
 
                 @include respond-to(min768) {
                     right: 1px;
@@ -232,7 +237,7 @@ header {
  */
 .nav {
     background: #444;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     height: 50px;
     line-height: 50px;
 
