@@ -58,6 +58,7 @@ $(document).ready(function () {
 //** Sticky Navigation
 
 //creat variable class
+fixHeight = $(".nav-fix-height");
 var yourNavigation = $(".nav");
 stickyDiv = "sticky";
 headerMain = $('.header-main').height();
@@ -65,10 +66,17 @@ headerMain = $('.header-main').height();
 $(window).scroll(function() {
     if( $(this).scrollTop() > headerMain ) {
         yourNavigation.addClass(stickyDiv);
+        fixHeight.addClass("nav-fix");
     } else {
         yourNavigation.removeClass(stickyDiv);
+        fixHeight.removeClass("nav-fix");
     }
 });
+// fix height
+
+
+
+
 
 //*************************************** Owl Crousel
 $('.owl-carousel').owlCarousel({
