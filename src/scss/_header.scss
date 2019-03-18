@@ -372,7 +372,11 @@ header {
 }
 
 .nav__bookmenu{
-    @include clear-fix;
+   &:after{
+       content:"";
+       display: block;
+       clear: both;
+   }
     padding: 15px;
     background-color: #f47920;
     h3{
