@@ -232,7 +232,7 @@ header {
  */
 .nav {
     background: #444;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     height: 50px;
     line-height: 50px;
 
@@ -452,4 +452,9 @@ header {
         width: 847px;
     }
 }
-
+.nav-fix-height{
+    margin-top: -20px;
+}
+.nav-fix{
+    margin-top: 0;
+}
