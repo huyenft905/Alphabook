@@ -3,7 +3,16 @@
 *Setting
 *
 */
-// Class toogle
+.no-padding__left{
+    padding-left: 0;
+}
+.no-padding__right{
+    padding-right: 0;
+}
+.padding-right__15px{
+    padding-right: 15px;
+}
+/*Toggle Class*/
 .active {
     color: #F47920 !important;
 }
