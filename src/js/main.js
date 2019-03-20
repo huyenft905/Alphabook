@@ -110,3 +110,32 @@ $('.owl-carousel').owlCarousel({
 $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').focus()
 })
+/*
+* CRS 2
+* */
+$('.owl-carousel.owl-2').owlCarousel({
+    animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    rewind: true,
+    autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"flex-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"flex-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:4,
+            nav:true
+        },
+        600:{
+            items:4,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
+});
