@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,16 +19,20 @@
     <!--Css-->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 <header>
     <div class="header-top hidden-xs">
         <div class="container">
-            <ul class="header-top__nav">
-                <li><a href="./TaiKhoanCuaToi.html">Tài Khoản Của Tôi </a></li>
-                <li><a href="#">Yêu Thích </a></li>
-                <li><a href="#">So Sánh </a></li>
-                <li><a href="#">Đăng Nhập</a></li>
-            </ul>
+            <div class="row">
+                <ul class="header-top__nav">
+                    <li><a href="./TaiKhoanCuaToi.html">Tài Khoản Của Tôi </a></li>
+                    <li><a href="#">Yêu Thích </a></li>
+                    <li><a href="#">So Sánh </a></li>
+                    <li><a href="#">Đăng Nhập</a></li>
+                </ul>
+            </div>
+
         </div>
     </div>
     <div>
@@ -36,11 +41,11 @@
     <div class="header-main">
         <div class="container">
             <div class="row">
-                <div class="header-logo col-xs-12 col-md-3">
+                <div class="header-logo no-padding__left col-xs-12 col-md-3">
                     <a href="#"><img src="images/logo_mobile.png" alt="Logo"></a>
                 </div>
 
-                <div class="header-main col-xs-12 col-md-9">
+                <div class="header-main no-padding__right col-xs-12 col-md-9">
                     <div class="row">
                         <div class="header-main__box col-xs-12">
                             <div class="header-main__search">
@@ -51,8 +56,7 @@
                             </div>
                             <div class="header-main__btn">
                                 <div class="btn__wrap">
-                                    <div class="btn__cart"><i class="fa fa-shopping-cart"
-                                                              aria-hidden="true"></i>(<span>1</span>) sản phẩm
+                                    <div class="btn__cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>(<span>1</span>) sản phẩm
                                     </div>
                                     <div class="cart__hover">
                                         <p class="cart-text">1 Sản phẩm trong giỏ hàng</p>
@@ -147,11 +151,11 @@
                 <div class="nav__mega-menu">
                     <nav>
                         <ul>
-                            <li><a class="nav__mega-link  " href="#">Trang Chủ</a></li>
-                            <li><a class="nav__mega-link " href="#">Khuyễn Mãi </a></li>
-                            <li><a class="nav__mega-link " href="#">Khóa học trực tuyến</a></li>
-                            <li><a class="nav__mega-link active " href="#">Tin Tức</a></li>
-                            <li><a class="nav__mega-link " href="#">Liên hệ</a></li>
+                            <li><a class="nav__mega-link  " href="./homePage.html">Trang Chủ</a></li>
+                            <li><a class="nav__mega-link " href="./khuyenMai.html">Khuyễn Mãi </a></li>
+                            <li><a class="nav__mega-link " href="./khoaHocTrucTuyen.html">Khóa học trực tuyến</a></li>
+                            <li><a class="nav__mega-link " href="./tinTuc.html">Tin Tức</a></li>
+                            <li><a class="nav__mega-link active " href="./lienHe.html">Liên hệ</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -159,67 +163,69 @@
                     <div class="nav__phone-content">
                         <div class="nav__phone-img">
                             <img src="images/phone.png" alt="">
-                            <a href="">1900 2647</a>
+                            <a href="#">1900 2647</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </header>
 <main class="mainLienHe">
     <div class="container">
-        <div class="breadcrumb">
-            <ul>
-                <li class="homePage">
-                    <a href="#" title="Trang Chủ" >TRANG CHỦ</a>
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </li>
-                <li>
-                    <strong>LIÊN HỆ</strong>
-                </li>
-            </ul>
-        </div>
-        <div class="google-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.488459819676!2d105.81821011497313!3d21.01313283600681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7d008a081f%3A0x6c06ff5c4d8b576d!2zQ8O0bmcgdHkgQ-G7lSBwaOG6p24gU8OhY2ggQWxwaGFib29rcw!5e0!3m2!1svi!2s!4v1500964794946" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-        </div>
         <div class="row">
-            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                <h4>LIÊN HỆ VỚI CHÚNG TÔI</h4>
-                <div class="form-group">
-                    <label for="inputsm">Họ và tên *</label>
-                    <input class="form-control input-sm" id="inputsm" type="text">
-                </div>
-                <div class="form-group">
-                    <label for="inputdefault">Địa chỉ Email *</label>
-                    <input class="form-control" id="inputdefault" type="text">
-                </div>
-                <div class="form-group">
-                    <label for="comment">Viết bình luận *</label>
-                    <textarea class="form-control" rows="5" id="comment"></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="button" class="btn btn-default">GỬI LIÊN HỆ</button>
-                </div>
-
-            </div>
-            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                <a href="#"><img src="images/logo_mobile.png" alt="Trang chủ"></a>
-                <p>Công ty cổ phần Sách Alpha (Alpha Books Joint-Stock Company – gọi tắt là Alpha Books) do một nhóm trí thức trẻ thành lập ở Hà Nội năm 2005 với niềm tin: Tri thức là Sức mạnh. Thông qua việc giới thiệu các tác phẩm có giá trị của thế giới, Alpha Books mong muốn trở thành nhịp cầu nối nguồn tri thức nhân loại với dân tộc Việt Nam.</p>
-                <ul class="lienHe-info">
-                    <li>
-                        <i class="fa fa-map-marker fa--border" aria-hidden="true"></i><span>176 Thái Hà, Đống Đa, Hà Nội</span>
+            <div class="breadcrumb">
+                <ul>
+                    <li class="homePage">
+                        <a href="#" title="Trang Chủ">TRANG CHỦ</a>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </li>
                     <li>
-                        <i class="fa fa-mobile fa--border" aria-hidden="true"></i><span>1900 2647</span>
-                    </li>
-                    <li>
-                        <i class="fa fa-envelope fa--border" aria-hidden="true"></i><span>info@alphabooks.vn</span>
+                        <strong>LIÊN HỆ</strong>
                     </li>
                 </ul>
             </div>
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.488459819676!2d105.81821011497313!3d21.01313283600681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7d008a081f%3A0x6c06ff5c4d8b576d!2zQ8O0bmcgdHkgQ-G7lSBwaOG6p24gU8OhY2ggQWxwaGFib29rcw!5e0!3m2!1svi!2s!4v1500964794946" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    <h4>LIÊN HỆ VỚI CHÚNG TÔI</h4>
+                    <div class="form-group">
+                        <label for="inputsm">Họ và tên *</label>
+                        <input class="form-control input-sm" id="inputsm" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputdefault">Địa chỉ Email *</label>
+                        <input class="form-control" id="inputdefault" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Viết bình luận *</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-default">GỬI LIÊN HỆ</button>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <a href="#"><img src="images/logo_mobile.png" alt="Trang chủ"></a>
+                    <p>Công ty cổ phần Sách Alpha (Alpha Books Joint-Stock Company – gọi tắt là Alpha Books) do một nhóm trí thức trẻ thành lập ở Hà Nội năm 2005 với niềm tin: Tri thức là Sức mạnh. Thông qua việc giới thiệu các tác phẩm có giá trị của thế giới, Alpha Books mong muốn trở thành nhịp cầu nối nguồn tri thức nhân loại với dân tộc Việt Nam.</p>
+                    <ul class="lienHe-info">
+                        <li>
+                            <i class="fa fa-map-marker fa--border" aria-hidden="true"></i><span>176 Thái Hà, Đống Đa, Hà Nội</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-mobile fa--border" aria-hidden="true"></i><span>1900 2647</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa--border" aria-hidden="true"></i><span>info@alphabooks.vn</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
     </div>
 </main>
 <footer class="footer">
@@ -231,7 +237,7 @@
             <div class="row multi-columns-row">
                 <div class="col-xs-12 col-sm-12 col-lg-3 col-md-3">
                     <div class="footer-info-box">
-                        <a href="#"><img src="images/logo_footer.png" alt="Logo"></a>
+                        <a href="./homePage.html"><img src="images/logo_footer.png" alt="Logo"></a>
                         <ul style="margin-top:30px">
                             <li>
                                 <i class="fa fa-map-marker fa--border" aria-hidden="true"></i><span>176 Thái Hà, Đống Đa, Hà Nội</span>
@@ -244,16 +250,17 @@
                             </li>
                         </ul>
                     </div>
+
                 </div>
                 <div class="col-xs-12 col-sm-6 col-lg-2 col-md-2">
                     <div class="footer-info-box">
                         <h3>THÔNG TIN</h3>
                         <ul>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Giới Thiệu</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Nhà Sách</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Phát Hành</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tuyển Dụng</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Liên Hệ</a></span></li>
+                            <li><span><a href="./gioiThieu.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Giới Thiệu</a></span></li>
+                            <li><span><a href="./heThongNhaSach.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Nhà Sách</a></span></li>
+                            <li><span><a href="./heThongPhatHanhMienBac.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Hệ Thống Phát Hành</a></span></li>
+                            <li><span><a href="./tuyenDung.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tuyển Dụng</a></span></li>
+                            <li><span><a href="./lienHe.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Liên Hệ</a></span></li>
                         </ul>
                     </div>
                 </div>
@@ -261,9 +268,9 @@
                     <div class="footer-info-box">
                         <h3>CHÍNH SÁCH</h3>
                         <ul>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Thanh Toán</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Vận Chuyển</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Bảo Mật</a></span></li>
+                            <li><span><a href="./chinhSachBaoMat.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Thanh Toán</a></span></li>
+                            <li><span><a href="./chinhSachVanChuyen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Vận Chuyển</a></span></li>
+                            <li><span><a href="./chinhSachBaoMat.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Chính Sách Bảo Mật</a></span></li>
                         </ul>
                     </div>
                 </div>
@@ -271,40 +278,20 @@
                     <div class="footer-info-box">
                         <h3>ĐIỀU KHOẢN</h3>
                         <ul>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Sử Dụng</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Giao Dịch</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Dịch Vụ Tiện Ích</a></span></li>
-                            <li><span><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Quyền Sở Hữu Trí Tuệ</a></span></li>
-                            <li><a href="#"><img src="images/bo_cong_thuong.png" alt=""></a></li>
+                            <li><span><a href="./dieuKhoanDichVu.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Sử Dụng</a></span></li>
+                            <li><span><a href="./dieuKhoanDichVu.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Điều Khoản Giao Dịch</a></span></li>
+                            <li><span><a href="./dichVuTienIch.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Dịch Vụ Tiện Ích</a></span></li>
+                            <li><span><a href="./quyenSoHuuTriTue.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Quyền Sở Hữu Trí Tuệ</a></span></li>
+                            <li>
+                                <a href="#"><img src="images/bo_cong_thuong.png" alt=""></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-lg-3 col-md-3">
                     <div class="footer-info-box">
                         <h3>FACEBOOK</h3>
-                        <div class="footer-fb__box">
-                            <div class="footer-fb__top">
-                                <img src="images/28378059_10157340284156840_6219850832763840783_n.jpg" alt="Logo alpha books">
-                                <a href="#"><h2>Alpha Books</h2></a>
-                                <a href="#"><p>396k like</p></a>
-                                <div class="footer-fb__opacity"></div>
-                                <div class="footer-fb__like">
-                                    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> Like Page</a>
-                                </div>
-                            </div>
-                            <div class="footer-fb__bottom">
-                                <div class="footer-fb__wrap">
-                                    <p>27 friends like this</p>
-                                    <div class="footer-fb__face">
-                                        <div><a href="#"><img src="images/52263566_2283525278566120_6578363882706829312_n.jpg" alt=""></a></div>
-                                        <div><a href="#"><img src="images/36264063_2157336494495949_875863772911108096_n.jpg" alt=""></a></div>
-                                        <div><a href="#"><img src="images/52263566_2283525278566120_6578363882706829312_n.jpg" alt=""></a></div>
-                                        <div><a href="#"><img src="images/36264063_2157336494495949_875863772911108096_n.jpg" alt=""></a></div>
-                                        <div><a href="#"><img src="images/52263566_2283525278566120_6578363882706829312_n.jpg" alt=""></a></div>
-                                        <div><a href="#"><img src="images/36264063_2157336494495949_875863772911108096_n.jpg" alt=""></a></div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="fb-page" data-href="https://www.facebook.com/alphabooks/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/alphabooks/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/alphabooks/">Alpha Books</a></blockquote>
                         </div>
                     </div>
                 </div>
@@ -317,7 +304,8 @@
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <form action="" method="post" id="newsletter">
                         <div class="input-group" id="mail-box">
-                            <input id="email"  placeholder="Nhập địa chỉ email của bạn"> <!--class="input_newsletter input-text required-entry validate-email" name="EMAIL" type="email" value=""-->
+                            <input id="email" placeholder="Nhập địa chỉ email của bạn">
+                            <!--class="input_newsletter input-text required-entry validate-email" name="EMAIL" type="email" value=""-->
                             <button type="submit" class="subcribe"><span>Gửi</span></button>
                         </div>
                     </form>
@@ -341,10 +329,13 @@
         </div>
     </div>
 
+    <div id="fb-root"></div>
 </footer>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2"></script>
 <script src="../node_modules/jquery/dist/jquery.min.js"></script>
 <script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 </body>
+
 </html>

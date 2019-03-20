@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống nhà sách</title>
 
-    <title>Alpha Biz</title>
     <!--Favicon -->
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <!--OWl Carousel Css  -->
@@ -74,11 +74,11 @@
     <div class="nav">
         <div class="container">
             <div class="row">
-                <div class="nav__book-list nav-fix-height">
+                <div class="nav__book-list">
                     <div class="nav__book-content">
                         <h3><span> <i class="fa fa-bars"></i></span> Danh mục sản sách <em class="open-close"></em></h3>
                     </div>
-                    <div class="nav__book-box" style="display: block;">
+                    <div class="nav__book-box">
                         <ul>
                             <li class="nav__book-box-sub">
                                 <a href="#">Alpha Biz <i class="fa fa-angle-right"></i></a>
@@ -151,7 +151,7 @@
                 <div class="nav__mega-menu">
                     <nav>
                         <ul>
-                            <li><a class="nav__mega-link active " href="./homePage.html">Trang Chủ</a></li>
+                            <li><a class="nav__mega-link  " href="./homePage.html">Trang Chủ</a></li>
                             <li><a class="nav__mega-link " href="./khuyenMai.html">Khuyễn Mãi </a></li>
                             <li><a class="nav__mega-link " href="./khoaHocTrucTuyen.html">Khóa học trực tuyến</a></li>
                             <li><a class="nav__mega-link " href="./tinTuc.html">Tin Tức</a></li>
@@ -171,59 +171,83 @@
         </div>
     </div>
 </header>
-<main>
-    <section class="banner">
-        <div class="container">
-            <div class="col-md-3">
-
+<main class="mainHeThongNhaSach">
+    <div class="container">
+        <div class="row ">
+            <div class="breadcrumb ">
+                <ul>
+                    <li class="homePage">
+                        <a href="#" title="Trang Chủ">TRANG CHỦ</a>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <strong>HỆ THỐNG NHÀ SÁCH</strong>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-9">
-                <div class="banner__content">
-                    <div class="owl-carousel owl-1">
-                        <div class="owl-content">
-                            <div class="item">
-                                <a href="#">
-                                    <img src="images/slider-re1.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="owl-content">
-                            <div class="item">
-                                <a href="#">
-                                    <img src="images/slider-re2.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="owl-content">
-                            <div class="item">
-                                <a href="#">
-                                    <img src="images/slider-re3.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="owl-content">
-                            <div class="item">
-                                <a href="#">
-                                    <img src="images/slider-re4.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="owl-content">
-                            <div class="item">
-                                <a href="#">
-                                    <img src="images/slider-re5.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+            <div class="post">
+                <h2 style="margin-top:0px;">Hệ Thống Nhà Sách Alpha Books</h2>
+                <table class="heThongNhaSach-table">
+                    <thead>
+                    <tr role="row">
+                        <th class="sorting_asc"><strong>Nhà sách</strong></th>
+                        <th class="sorting"><strong>Địa chỉ</strong></th>
+                        <th class="sorting"><strong>Thành Phố</strong></th>
+                        <th class="sorting"><strong>SĐT</strong></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="odd" role="row">
+                        <td class="sorting_1">Nhà sách 176</td>
+                        <td>176 Thái Hà, Đống Đa</td>
+                        <td class="sorting_1">Hà Nội</td>
+                        <td>(84-4) 3722 6234</td>
+                    </tr>
+                    <tr class="even" role="row">
+                        <td class="sorting_1">Gian Hàng Alpha Books HN</td>
+                        <td>Đường sách 19/12, Trần Hưng Đạo, Hoàn Kiếm</td>
+                        <td class="sorting_1">Hà Nội</td>
+                        <td>(02) 432668036</td>
+                    </tr>
+                    <tr class="odd" role="row">
+                        <td class="sorting_1">Nhà sách 340</td>
+                        <td>340 Nguyễn Trãi, Thanh Xuân</td>
+                        <td class="sorting_1">Hà Nội</td>
+                        <td>(84-4) 3540 6370</td>
+                    </tr>
+                    <tr class="even" role="row">
+                        <td class="sorting_1">Nhà sách Vinh</td>
+                        <td>211 Lê Duẩn, Tp Vinh</td>
+                        <td class="sorting_1">Nghệ An</td>
+                        <td>(02) 383 555 468</td>
+                    </tr>
+                    <tr class="odd" role="row">
+                        <td class="sorting_1">Nhà sách 138C</td>
+                        <td>138C, Nguyễn Đình Chiểu, Quận 3</td>
+                        <td class="sorting_1">HCM</td>
+                        <td>(84-8)38 220 334<br>
+                            (84-8) 38 220 335</td>
+                    </tr>
+                    <tr class="even" role="row">
+                        <td class="sorting_1">Gian Hàng Alpha Books HCM</td>
+                        <td>Đường sách Nguyễn Văn Bình, Q.1</td>
+                        <td class="sorting_1">HCM</td>
+                        <td>(08) 38 251 789</td>
+                    </tr>
+                    <tr class="odd" role="row">
+                        <td class="sorting_1">Nhà sách 120</td>
+                        <td>120, Hòa Bình, Quận Tân Phú</td>
+                        <td class="sorting_1">HCM</td>
+                        <td>(08) 38 605 776</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
+
         </div>
-    </section>
 
+    </div>
 </main>
-
 <footer class="footer">
     <div id="stop" class="scrollTop">
         <span class="fa fa-chevron-up"><a href="#"> </a></span>

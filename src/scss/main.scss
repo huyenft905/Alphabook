@@ -1,12 +1,6 @@
-
-//sass --watch src/scss/main.scss:src/css/style.css
 @import "setting";
 @import "normalize";
-@import "mixin";
 @import "mixin__huyen";
 @import "header";
 @import "footer";
-@import "mainTinTuc";
-@import "lienHe";
-@import "product";
-@import "khuyenMai";
+@import "common";

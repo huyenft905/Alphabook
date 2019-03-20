@@ -184,10 +184,18 @@
 .footer-bottom{
     background: #1a1a1a;
     padding-bottom: 15px;
-    @include clear-fix;
+    &:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
 }
 #newsletter{
-    @include clear-fix;
+    &:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
 }
 #email {
     font-size: 12px;
