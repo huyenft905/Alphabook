@@ -1402,3 +1402,33 @@ ul {
     }
 }
 
+
+// Style contents home page
+
+
+.home-page-contents{
+    margin: 15px 0;
+    &:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+.bg-title{
+    background-color: #F2F2F2;
+    width: 100%;
+    padding: 11px ;
+    &:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    h3{
+        color: #444444;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0px;
+        line-height: 25px;
+    }
+}
