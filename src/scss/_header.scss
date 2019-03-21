@@ -85,6 +85,8 @@ header {
             width: 100%;
             margin-top: 15px;
             position: relative;
+            height: 47px;
+            overflow: hidden;
 
             @include respond-to(min768) {
                 order: 1;
@@ -135,6 +137,9 @@ header {
                 right: 15px;
                 display: inline-block;
                 transition: all 0.3s ease-in-out;
+                &:focus{
+                    outline: none;
+                }
 
                 @include respond-to(min768) {
                     right: 1px;
@@ -372,7 +377,11 @@ header {
 }
 
 .nav__bookmenu{
-    @include clear-fix;
+   &:after{
+       content:"";
+       display: block;
+       clear: both;
+   }
     padding: 15px;
     background-color: #f47920;
     h3{
@@ -452,4 +461,9 @@ header {
         width: 847px;
     }
 }
-
+.nav-fix-height{
+    margin-top: -20px;
+}
+.nav-fix{
+    margin-top: 0;
+}
