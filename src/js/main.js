@@ -109,11 +109,11 @@ $('.owl-carousel').owlCarousel({
 //Click modals
 $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').focus()
-})
+});
 /*
 * CRS 2
 * */
-$('.owl-carousel.owl-2').owlCarousel({
+$('.owl-carousel .owl-2').owlCarousel({
     animateOut: 'fadeOut',
     loop:true,
     margin:10,
