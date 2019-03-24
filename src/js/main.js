@@ -118,7 +118,7 @@ $('#owl-2.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     // rewind: true,
-    autoplay: true,
+    // autoplay: true,
     autoplayTimeout:7000,
     responsiveClass:true,
     nav: true,
@@ -134,6 +134,91 @@ $('#owl-2.owl-carousel').owlCarousel({
         },
         1000:{
             items:4,
+            nav:true,
+            // loop:false
+        }
+    }
+});
+
+
+//CRS 3
+$('#owl-3.owl-carousel').owlCarousel({
+    // animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    // rewind: true,
+    // autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            // loop:false
+        }
+    }
+});
+//CRS 4
+$('#owl-4.owl-carousel').owlCarousel({
+    // animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    // rewind: true,
+    // autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            // loop:false
+        }
+    }
+});
+
+
+//CRS 4
+$('#owl-5.owl-carousel').owlCarousel({
+    // animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    // rewind: true,
+    // autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
             nav:true,
             // loop:false
         }
