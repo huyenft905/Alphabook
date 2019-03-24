@@ -79,7 +79,7 @@ $(window).scroll(function() {
 
 
 //*************************************** Owl Crousel
-$('.owl-carousel').owlCarousel({
+$('#owl-1.owl-carousel').owlCarousel({
     animateOut: 'fadeOut',
     loop:true,
     margin:10,
@@ -113,29 +113,114 @@ $('#myModal').on('shown.bs.modal', function () {
 /*
 * CRS 2
 * */
-$('.owl-carousel .owl-2').owlCarousel({
-    animateOut: 'fadeOut',
+$('#owl-2.owl-carousel').owlCarousel({
+    // animateOut: 'fadeOut',
     loop:true,
     margin:10,
-    rewind: true,
-    autoplay: true,
+    // rewind: true,
+    // autoplay: true,
     autoplayTimeout:7000,
     responsiveClass:true,
     nav: true,
-    navText: ["<span class=\"flex-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"flex-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
     responsive:{
         0:{
             items:4,
             nav:true
         },
         600:{
-            items:4,
+            items:1,
             nav:false
         },
         1000:{
             items:4,
             nav:true,
-            loop:false
+            // loop:false
+        }
+    }
+});
+
+
+//CRS 3
+$('#owl-3.owl-carousel').owlCarousel({
+    // animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    // rewind: true,
+    // autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            // loop:false
+        }
+    }
+});
+//CRS 4
+$('#owl-4.owl-carousel').owlCarousel({
+    // animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    // rewind: true,
+    // autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            // loop:false
+        }
+    }
+});
+
+
+//CRS 4
+$('#owl-5.owl-carousel').owlCarousel({
+    // animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    // rewind: true,
+    // autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            // loop:false
         }
     }
 });
