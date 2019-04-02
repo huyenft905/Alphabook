@@ -197,7 +197,7 @@ $('#owl-4.owl-carousel').owlCarousel({
 });
 
 
-//CRS 4
+//CRS 5
 $('#owl-5.owl-carousel').owlCarousel({
     // animateOut: 'fadeOut',
     loop:true,
@@ -219,6 +219,88 @@ $('#owl-5.owl-carousel').owlCarousel({
         },
         1000:{
             items:1,
+            nav:true,
+            // loop:false
+        }
+    }
+});
+
+//CRS 6
+$('#owl-6.owl-carousel').owlCarousel({
+    // animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    // rewind: true,
+    // autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:3,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            // loop:false
+        }
+    }
+});
+
+$('#owl-7.owl-carousel').owlCarousel({
+    // animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    // rewind: true,
+    // autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:4,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            // loop:false
+        }
+    }
+});
+
+$('#owl-8.owl-carousel').owlCarousel({
+    // animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    // rewind: true,
+    // autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:2,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:2,
             nav:true,
             // loop:false
         }

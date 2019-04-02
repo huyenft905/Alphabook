@@ -162,6 +162,30 @@
   right: 0;
   top: -35px; }
 
+#owl-2 .owl-prev, #owl-2 .owl-next {
+  outline: none; }
+
+#owl-7 .owl-nav {
+  position: absolute;
+  right: 0;
+  top: -35px; }
+
+#owl-7 .owl-prev, #owl-7 .owl-next {
+  outline: none; }
+
+#owl-6 .owl-nav {
+  position: absolute;
+  top: -50px;
+  right: 20px; }
+
+#owl-8 .owl-nav {
+  position: absolute;
+  right: 0;
+  top: -35px; }
+
+#owl-8 .owl-prev, #owl-8 .owl-next {
+  outline: none; }
+
 .icon-next, .icon-prev {
   width: 22px;
   height: 22px;
@@ -175,8 +199,5 @@
 
 .icon-prev {
   margin-right: 10px; }
-
-#owl-2 .owl-prev, #owl-2 .owl-next {
-  outline: none; }
 
 /*# sourceMappingURL=setting.css.map */
