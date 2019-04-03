@@ -1671,6 +1671,7 @@ ul {
 // Banner book\
 .banner-books{
     margin-bottom: 30px;
+    position: relative;
 }
 .img-responsive{
     width: 100%;
@@ -1679,6 +1680,12 @@ ul {
     img{
         width: 100%;
     }
+}
+.image-products__left{
+    position: relative;
+}
+.image-products__right{
+    position: relative;
 }
 .image-products{
     margin-bottom: 15px;
