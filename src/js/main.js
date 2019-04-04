@@ -95,7 +95,7 @@ $('#owl-1.owl-carousel').owlCarousel({
             nav:true
         },
         600:{
-            items:3,
+            items:1,
             nav:false
         },
         1000:{
@@ -125,14 +125,18 @@ $('#owl-2.owl-carousel').owlCarousel({
     navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
     responsive:{
         0:{
-            items:4,
+            items:1,
             nav:true
         },
-        600:{
-            items:1,
-            nav:false
+        484:{
+            items:2,
+            nav:true
         },
-        1000:{
+        768:{
+            items:3,
+            nav:true
+        },
+        992:{
             items:4,
             nav:true,
             // loop:false
@@ -159,7 +163,7 @@ $('#owl-3.owl-carousel').owlCarousel({
         },
         600:{
             items:1,
-            nav:false
+            nav:true
         },
         1000:{
             items:1,
@@ -173,8 +177,8 @@ $('#owl-4.owl-carousel').owlCarousel({
     // animateOut: 'fadeOut',
     loop:true,
     margin:10,
-    // rewind: true,
-    // autoplay: true,
+    rewind: true,
+    autoplay: true,
     autoplayTimeout:7000,
     responsiveClass:true,
     nav: true,
@@ -186,7 +190,7 @@ $('#owl-4.owl-carousel').owlCarousel({
         },
         600:{
             items:1,
-            nav:false
+            nav:true
         },
         1000:{
             items:1,
@@ -238,15 +242,19 @@ $('#owl-6.owl-carousel').owlCarousel({
     navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
     responsive:{
         0:{
+            items:1,
+            nav:true
+        },
+        484:{
+            items:2,
+            nav:true
+        },
+        768:{
             items:3,
             nav:true
         },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:3,
+        992:{
+            items:4,
             nav:true,
             // loop:false
         }
@@ -265,14 +273,18 @@ $('#owl-7.owl-carousel').owlCarousel({
     navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
     responsive:{
         0:{
-            items:4,
+            items:1,
             nav:true
         },
-        600:{
-            items:1,
-            nav:false
+        484:{
+            items:2,
+            nav:true
         },
-        1000:{
+        768:{
+            items:3,
+            nav:true
+        },
+        992:{
             items:4,
             nav:true,
             // loop:false
@@ -292,12 +304,12 @@ $('#owl-8.owl-carousel').owlCarousel({
     navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
     responsive:{
         0:{
-            items:2,
+            items:1,
             nav:true
         },
-        600:{
+        484:{
             items:2,
-            nav:false
+            nav:true
         },
         1000:{
             items:2,
