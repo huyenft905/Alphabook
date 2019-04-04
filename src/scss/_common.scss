@@ -1477,6 +1477,9 @@ ul {
         font-size: 14px;
         color: #666666;
     }
+    img{
+        height: 80%;
+    }
 
 }
 
@@ -1794,6 +1797,9 @@ ul {
 
 
 // feed back
+.feed-back{
+    margin-top: 30px;
+}
 .feed-back__desc{
     background: #fff none repeat scroll 0 0;
     text-align: center;
@@ -1808,6 +1814,16 @@ ul {
         margin-bottom: -7 ;
     }
 
+}
+.feed-back__title{
+    background-color: #F2F2F2;
+    width: 100%;
+    padding: 11px;
+    color: #444444;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 25px;
 }
 .feed-back_testimonial{
     color: #444;

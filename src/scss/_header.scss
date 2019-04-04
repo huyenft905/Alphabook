@@ -276,9 +276,9 @@ header {
 
     &__book-box {
         position: absolute;
-        width: 100%;
-        top: 50px;
-        left: 0;
+        width: 97%;
+        top: -13px;
+        left: 14px;
         z-index: 999;
         border-color: rgba(0, 0, 0, 0.1);
         border-style: solid;
@@ -349,6 +349,7 @@ header {
         float: left;
     }
 
+
     &__phone-img {
         background-color: #F47920;
         cursor: pointer;
@@ -370,6 +371,9 @@ header {
 
         }
     }
+}
+.rp-991{
+    display: none;
 }
 
 .header-nav{
@@ -467,3 +471,8 @@ header {
 .nav-fix{
     margin-top: 0;
 }
+.nav-991{
+    display: none;
+}
+
+

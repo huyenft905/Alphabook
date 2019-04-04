@@ -1,0 +1,61 @@
+@media screen and (max-width: 991px) {
+    main::before,main::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .rp-991{
+        display: inline-block;
+        width: 45%;
+        margin-left: 5px;
+    }
+    .nav{
+        display: none;
+    }
+
+    .nav-991{
+        display: block;
+
+        a{
+            font-size: 17px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        i{
+            padding: 10px;
+        }
+    }
+    .nav-991__wrap{
+        &::after{
+            display: block;
+            content: "";
+            clear: both;
+        }
+        background-color: #313131;
+        padding: 20px 15px;
+        margin: 15px 0;
+
+    }
+    .btn-menu{
+        display: inline-block;
+        float: left;
+    }
+    .btn-category{
+        display: inline-block;
+        float: right;
+    }
+
+    .future-books__left{
+        display: none;
+    }
+    .sidebar-box{
+        &__left{
+            width:12%;
+            padding: 10px 15px;
+        }
+    }
+    .image-products .margin-bottom-30 {
+        margin-top: 29px;
+    }
+}
