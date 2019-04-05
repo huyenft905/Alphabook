@@ -1,0 +1,80 @@
+@media screen and (max-width: 991px) {
+  main::before, main::after {
+    content: "";
+    clear: both;
+    display: block; }
+
+  .header-main__search {
+    margin-left: -15px; }
+
+  .rp-991 {
+    display: inline-block;
+    width: 45%;
+    margin-left: 5px; }
+
+  .nav {
+    display: none; }
+
+  .nav-991 {
+    display: block; }
+    .nav-991 a {
+      font-size: 17px;
+      font-weight: bold;
+      color: #ffffff; }
+    .nav-991 i {
+      padding: 10px; }
+
+  .nav-991__wrap {
+    background-color: #313131;
+    padding: 20px 15px;
+    margin: 15px 0; }
+    .nav-991__wrap::after {
+      display: block;
+      content: "";
+      clear: both; }
+
+  .btn-menu {
+    display: inline-block;
+    float: left; }
+
+  .btn-category {
+    display: inline-block;
+    float: right; }
+
+  .future-books__left {
+    display: none; }
+
+  .sidebar-box__left {
+    width: 30%;
+    padding: 1% 1%; }
+
+  .image-products .margin-bottom-30 {
+    margin-top: 29px; } }
+@media screen and (max-width: 767px) {
+  main::before, main::after {
+    content: "";
+    clear: both;
+    display: block; }
+
+  .header-main__box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: -15px;
+    width: calc(100% + 15px); }
+
+  .nav__phone {
+    width: 50%; }
+
+  .header-main__btn {
+    width: 100%; }
+
+  .header-main__search {
+    margin-left: 0; }
+
+  .nav__phone-img {
+    text-align: center; }
+
+  .btn__wrap {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; } }

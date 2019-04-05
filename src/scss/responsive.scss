@@ -4,6 +4,9 @@
         clear: both;
         display: block;
     }
+    .header-main__search{
+        margin-left: -15px;
+    }
     .rp-991{
         display: inline-block;
         width: 45%;
@@ -35,8 +38,7 @@
         background-color: #313131;
         padding: 20px 15px;
         margin: 15px 0;
-
-    }
+        }
     .btn-menu{
         display: inline-block;
         float: left;
@@ -51,11 +53,42 @@
     }
     .sidebar-box{
         &__left{
-            width:12%;
-            padding: 10px 15px;
+            width:30%;
+            padding: 1% 1%;
         }
     }
     .image-products .margin-bottom-30 {
         margin-top: 29px;
     }
 }
+@media screen and (max-width: 767px) {
+    main::before,main::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .header-main__box{
+        flex-wrap: wrap;
+        margin-left: -15px;
+        width: calc(100% + 15px);
+    }
+    .nav__phone{
+        width: 50%;
+    }
+    .header-main__btn{
+        width: 100%;
+    }
+    .header-main__search{
+        margin-left: 0;
+    }
+    .nav__phone-img{
+        text-align: center;
+    }
+    .btn__wrap{
+        order: 2;
+    }
+}
+
+
+// Responsive page Chính sách bảo mật
+
