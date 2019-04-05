@@ -254,7 +254,7 @@ $('#owl-6.owl-carousel').owlCarousel({
             nav:true
         },
         992:{
-            items:4,
+            items:3,
             nav:true,
             // loop:false
         }
