@@ -239,6 +239,14 @@
 #owl-8 .owl-prev, #owl-8 .owl-next {
   outline: none; }
 
+#owl-9 .owl-nav {
+  position: absolute;
+  right: 0;
+  top: -35px; }
+
+#owl-9 .owl-prev, #owl-9 .owl-next {
+  outline: none; }
+
 .icon-next, .icon-prev {
   width: 22px;
   height: 22px;
@@ -773,9 +781,9 @@ header .header-main {
         font: normal normal normal 15px/1 FontAwesome; }
   .nav__book-box {
     position: absolute;
-    width: 97%;
-    top: -13px;
-    left: 14px;
+    width: 100%;
+    top: 50px;
+    left: 0;
     z-index: 999;
     border-color: rgba(0, 0, 0, 0.1);
     border-style: solid;
@@ -1265,7 +1273,7 @@ header .header-main {
 /*Products*/
 .product-info {
   padding-left: 0; }
-  .product-info:after {
+  .product-info:before {
     content: '';
     clear: both;
     display: block; }
