@@ -318,3 +318,29 @@ $('#owl-8.owl-carousel').owlCarousel({
         }
     }
 });
+$('#owl-9.owl-carousel').owlCarousel({
+    // animateOut: 'fadeOut',
+    loop:true,
+    margin:10,
+    // rewind: true,
+    // autoplay: true,
+    autoplayTimeout:7000,
+    responsiveClass:true,
+    nav: true,
+    navText: ["<span class=\"icon-next\" ><i class='fa fa-angle-left'></i></span>", "<span class=\"icon-prev\" ><i class='fa fa-angle-right'></i></span>"],
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        484:{
+            items:2,
+            nav:true
+        },
+        1000:{
+            items:2,
+            nav:true,
+            // loop:false
+        }
+    }
+});
