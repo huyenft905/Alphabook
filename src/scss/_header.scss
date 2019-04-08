@@ -242,7 +242,7 @@ header {
     line-height: 50px;
 
     &__book-list {
-        width: 25%;
+        width: 100%;
         background-color: #F47920;
         padding: 15px 19px;
         float: left;
@@ -316,7 +316,7 @@ header {
     }
 
     &__mega-menu {
-        width: 58.33333333%;
+        //width: 58.33333333%;
         float: left;
 
         nav {
@@ -344,8 +344,9 @@ header {
     }
 
     &__phone {
-        width: 16.5%;
-        float: left;
+        //width: 16.5%;
+        text-align: center;
+        //float: left;
     }
 
 

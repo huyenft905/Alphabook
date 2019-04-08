@@ -4,9 +4,6 @@
     clear: both;
     display: block; }
 
-  .header-main__search {
-    margin-left: -15px; }
-
   .rp-991 {
     display: inline-block;
     width: 45%;
@@ -58,9 +55,10 @@
 
   .header-main__box {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-left: -15px;
-    width: calc(100% + 15px); }
+        flex-wrap: wrap; }
+
+  .rp-991 {
+    margin-left: 0px; }
 
   .nav__phone {
     width: 50%; }
@@ -69,7 +67,7 @@
     width: 100%; }
 
   .header-main__search {
-    margin-left: 0; }
+    margin: 0 0 15px 0; }
 
   .nav__phone-img {
     text-align: center; }
