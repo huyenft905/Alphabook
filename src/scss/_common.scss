@@ -88,15 +88,15 @@
     }
 }
 
-.product-img {
-    padding-left: 0;
-
-    &:after {
-        content: '';
-        clear: both;
-        display: block;
-    }
-}
+//.product-img {
+//    padding-left: 0;
+//
+//    &:after {
+//        content: '';
+//        clear: both;
+//        display: block;
+//    }
+//}
 
 .product-item {
     border: #d9d9d9 0.5px solid;
@@ -625,13 +625,6 @@
 }
 
 /*Main Tin Tuc*/
-
-.mainTinTuc {
-    .container {
-        padding: 0;
-    }
-}
-
 .news-wrap {
     float: right;
     padding-right: 0;
@@ -1704,7 +1697,7 @@ ul {
 .future-books__left{
     margin: 15px 0;
     img{
-        width: 90%;
+        width: 95%;
     }
 }
 .future-books__content{

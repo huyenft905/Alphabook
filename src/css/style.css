@@ -759,7 +759,7 @@ header .header-main {
   height: 50px;
   line-height: 50px; }
   .nav__book-list {
-    width: 25%;
+    width: 100%;
     background-color: #F47920;
     padding: 15px 19px;
     float: left;
@@ -810,7 +810,6 @@ header .header-main {
           padding: 10px;
           font-size: 14px; }
   .nav__mega-menu {
-    width: 58.33333333%;
     float: left; }
     .nav__mega-menu nav ul li {
       display: inline-block;
@@ -827,8 +826,7 @@ header .header-main {
           text-decoration: none;
           color: #F47920; }
   .nav__phone {
-    width: 16.5%;
-    float: left; }
+    text-align: center; }
   .nav__phone-img {
     background-color: #F47920;
     cursor: pointer; }
@@ -931,11 +929,9 @@ header .header-main {
 .footer {
   background-color: #313131;
   font-family: inherit; }
-  .footer .container {
-    padding: 30px 0 15px 0; }
 
 .footer-top {
-  padding: 20px 0 0; }
+  padding: 50px 0 15px; }
 
 .footer-info-box ul li span a {
   font-size: 13px; }
@@ -1093,7 +1089,7 @@ header .header-main {
 
 .footer-bottom {
   background: #1a1a1a;
-  padding-bottom: 15px; }
+  padding: 15px; }
   .footer-bottom:after {
     content: '';
     display: block;
@@ -1274,13 +1270,6 @@ header .header-main {
 .product-info {
   padding-left: 0; }
   .product-info:before {
-    content: '';
-    clear: both;
-    display: block; }
-
-.product-img {
-  padding-left: 0; }
-  .product-img:after {
     content: '';
     clear: both;
     display: block; }
@@ -1667,9 +1656,6 @@ header .header-main {
   text-decoration: none; }
 
 /*Main Tin Tuc*/
-.mainTinTuc .container {
-  padding: 0; }
-
 .news-wrap {
   float: right;
   padding-right: 0; }
@@ -2449,7 +2435,7 @@ ul {
 .future-books__left {
   margin: 15px 0; }
   .future-books__left img {
-    width: 90%; }
+    width: 95%; }
 
 .future-books__content {
   margin: 15px 0; }
@@ -2585,9 +2571,6 @@ ul {
     clear: both;
     display: block; }
 
-  .header-main__search {
-    margin-left: -15px; }
-
   .rp-991 {
     display: inline-block;
     width: 45%;
@@ -2639,9 +2622,10 @@ ul {
 
   .header-main__box {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-left: -15px;
-    width: calc(100% + 15px); }
+        flex-wrap: wrap; }
+
+  .rp-991 {
+    margin-left: 0px; }
 
   .nav__phone {
     width: 50%; }
@@ -2650,7 +2634,7 @@ ul {
     width: 100%; }
 
   .header-main__search {
-    margin-left: 0; }
+    margin: 0 0 15px 0; }
 
   .nav__phone-img {
     text-align: center; }
