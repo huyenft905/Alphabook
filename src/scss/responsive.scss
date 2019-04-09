@@ -1,3 +1,14 @@
+@media screen and (max-width: 1200px) {
+    main::before, main::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .nav__mega-menu nav ul li {
+        padding: 0 10px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     main::before,main::after{
         content: "";
@@ -36,6 +47,9 @@
         padding: 20px 15px;
         margin: 15px 0;
         }
+    .mainProduct-right{
+        display: none;
+    }
     .btn-menu{
         display: inline-block;
         float: left;
@@ -57,6 +71,31 @@
     .image-products .margin-bottom-30 {
         margin-top: 29px;
     }
+    .main-nav-678{
+        display: none;
+    }
+    .news-list__img{
+        width: 12%;
+    }
+    .news{
+        .banner-left{
+            display: none;
+        }
+    }
+    .mainTinTuc{
+        .hot-img{
+            width: 40%;
+        }
+        .hot-content{
+            width: 60%;
+        }
+        .hot-title{
+            font-size: 12px;
+        }
+        .hot-date {
+            font-size: 11px;
+        }
+    }
 }
 @media screen and (max-width: 767px) {
     main::before,main::after{
@@ -66,6 +105,13 @@
     }
     .header-main__box{
         flex-wrap: wrap;
+    }
+    .product-item{
+        text-align: center;
+    }
+    .product-link{
+        max-width: 350px;
+        display: inline-block;
     }
     .rp-991{
         margin-left: 0px;
@@ -86,6 +132,7 @@
     .btn__wrap{
         order: 2;
     }
+
 }
 
 
